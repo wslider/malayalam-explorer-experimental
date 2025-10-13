@@ -1,0 +1,13 @@
+    :root {
+      --keralaGreen: #004700; }
+
+    body {
+        background-color: var(--keralaGreen);
+        color: whitesmoke; 
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .welcome {
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
