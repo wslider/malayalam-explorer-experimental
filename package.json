@@ -1,12 +1,11 @@
 {
-  "name": "malayalam-explorer-experimental",
+  "name": "malayalam-explorer-api",
   "version": "1.0.0",
-  "description": "# Malayalam Explorer",
-  "main": "flashcards.js",
+  "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
-},
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wslider/malayalam-explorer-experimental.git"
@@ -23,5 +22,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
