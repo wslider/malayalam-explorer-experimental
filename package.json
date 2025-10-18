@@ -1,0 +1,27 @@
+{
+  "name": "malayalam-explorer-experimental",
+  "version": "1.0.0",
+  "description": "# Malayalam Explorer",
+  "main": "flashcards.js",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wslider/malayalam-explorer-experimental.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wslider/malayalam-explorer-experimental/issues"
+  },
+  "homepage": "https://github.com/wslider/malayalam-explorer-experimental#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
