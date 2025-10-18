@@ -75,3 +75,31 @@ fetch('https://api.example.com/data/1', {
 .catch(error => console.error('Error:', error));
 
 ###### fetch DELETE 
+
+
+# GitHub API Examples .. 
+
+async function getUser(ghUserName) {
+    try {
+        const res = await fetch(`https://api.github.com/users/${ghUserName}`);
+        const data = await res.json();
+        console.log(data);
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+getUser(yourUserNameHere);
+
+
+async function getUserRepos(ghUserName) {
+    try {
+        const res = await fetch(`https://api.github.com/users/${ghUserName}/repos`)
+        const data = await res.json();
+        console.log(data);
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+getUserRepos(aUserNameHere);
