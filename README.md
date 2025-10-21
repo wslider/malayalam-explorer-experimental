@@ -17,7 +17,6 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 | **Flashcards** | Learn Malayalam with interactive flashcards of the most commonly used words with example phrases. |
 | **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. |
 | **Munnar** | Featured location page for the mountain town of Munnar including a map, weather data and information. |
-
 | **Kochi** | Featured location page for the port city including a map, weather data and information. |
 | **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. |
 
@@ -117,46 +116,43 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
         - malayalam english toggle (or highlight to change language)
     15. Achievment badges 
 
-## Site Map: 
+# Site Map
 
-.
-├── server.js
-├── package.json
-├── public/
-│   ├── index.html
-│   ├── trivandrum.html
-│   ├── kochi.html
-│   ├── munnar.html
-│   ├── flashcards.html
-│   ├── badges.html
-│   ├── css/
-│   │   ├── reset.css
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   ├── data/
-│   │   ├── flashcards.json
-│   │   ├── alphabet.json
-│   │   └── locations.json
-│   ├── images/
-│   │   ├── kerala.png
-│   │   ├── trivandrum.png
-│   │   ├── kochi.png
-│   │   ├── munnar.png
-│   │   └── logo.png
-│   ├── audio/
-│   │   ├── 1.mp3
-│   │   └── .. 297.mp3
-│   └── maps/
-│       ├── kerala.overpass
-│       ├── trivandrum.overpass
-│       ├── kochi.overpass
-│       └── munnar.overpass
-└── .gitignore
+- **server.js**
+- **package.json**
+- **public/**
+  - index.html
+  - trivandrum.html
+  - kochi.html
+  - munnar.html
+  - flashcards.html
+  - badges.html
+  - **css/**
+    - reset.css
+    - style.css
+  - **js/**
+    - script.js
+  - **data/**
+    - flashcards.json
+    - alphabet.json
+    - locations.json
+  - **images/**
+    - kerala.png
+    - trivandrum.png
+    - kochi.png
+    - munnar.png
+    - logo.png
+  - **audio/**
+    - 1.mp3
+    - 297.mp3
+  - **maps/**
+    - kerala.overpass
+    - trivandrum.overpass
+    - kochi.overpass
+    - munnar.overpass
+- **.gitignore**
 
-## AI usage 
-- site map layout for readme.md (above) created with assistance from Grok 3. 
-
+## AI Usage: 
 
 
 
