@@ -26,7 +26,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 | Requirement | Implementation |
 |-------------|----------------|
 | **Create a Node.js web server using Express.js** | & Host on Render |
-| **Create an API that implements HTTP requests for GET and POST. Data can be stored in a JSON file on the back-end** | |
+| **Custin API** | Create an API that implements HTTP requests for GET and POST. Data can be stored in a JSON file on the back-end |
 | **Use arrays, objects to store and retrieve information** |  Flashcard data stored in JSON Array of Objects. Shuffle / Random Selection Available. |
 | **Visualize data in a user-friendly way** | Flashcards, Weather Data and Topogrpahic Maps. |
 | **Responsive Design** | Mobile first design utilizing CSS flexbox. CSS grid layout with full size maps optimized for tablets and larger screens. |
