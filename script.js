@@ -17,24 +17,49 @@ const monthNames = [
 const getGreeting = (hour24) => {
   switch (true) {
     case (hour24 >= 5 && hour24 < 12):
-      return { english: "Good Morning", malayalam: "സുപ്രഭാതം" };
+      return { 
+        english: "Good Morning", 
+        malayalam: "സുപ്രഭാതം",
+        translit: "Suprabhatam"
+      };
     case (hour24 >= 12 && hour24 < 17):
-      return { english: "Good Afternoon", malayalam: "ശുഭാന്തരം" };
+      return { 
+        english: "Good Afternoon", 
+        malayalam: "ശുഭാന്തരം",
+        translit: "Shubhantharam"
+      };
     case (hour24 >= 17 && hour24 < 22):
-      return { english: "Good Evening", malayalam: "ശുഭ സന്ധ്യ" };
+      return { 
+        english: "Good Evening", 
+        malayalam: "ശുഭ സന്ധ്യ",
+        translit: "Shubha Sandhya"
+      };
     case (hour24 >= 22 || hour24 < 5):
-      return { english: "Good Night", malayalam: "ശുഭരാത്രി" };
+      return { 
+        english: "Good Night", 
+        malayalam: "ശുഭരാത്രി",
+        translit: "Shubharathri"
+      };
     default:
-      return { english: "Hello", malayalam: "നമസ്കാരം" };
+      return { 
+        english: "Hello", 
+        malayalam: "നമസ്കാരം",
+        translit: "Namaskaram"
+      };
   }
 };
 
 const createGreetingStr = (greeting, year, month, day, hour, minsPadded, amPm, timezoneLabel) => {
   const currentMins = parseInt(minsPadded, 10);
+  const randomNum = Math.floor(Math.random()*10)+1 ; 
   if (currentMins % 2 === 0) {
     return `${greeting.english}! It is ${year} ${month} ${day} at ${hour}:${minsPadded} ${amPm}. ${timezoneLabel}`;
-  } else {
+  } 
+  else if (currentMins % 2 !== 0 && randomNum >= 5 ){
     return `${greeting.malayalam}! It is ${year} ${month} ${day} at ${hour}:${minsPadded} ${amPm}. ${timezoneLabel}`;
+  }
+  else {
+    return `${greeting.translit}! It is ${year} ${month} ${day} at ${hour}:${minsPadded} ${amPm}. ${timezoneLabel}`;
   }
 };
 

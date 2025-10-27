@@ -7,17 +7,36 @@
     <title>Flashcards</title>
 </head>
 
-<body class="cardContainer" id="card">
+<body >
 
-    <h2 class="cardItem" id="category">Noun</h2>
-    <h2 class="cardItem" id="english">Water</h2>
-    <h2 class="cardItem" id="malayalam">വെള്ളം"</h2>
-    <h2 class="cardItem" id="transliteration">veḷḷam</h2>
-    <h2 class="cardItem" id="example">I drink water. → ഞാൻ വെള്ളം കുടിക്കുന്നു. (ñān veḷḷam kuṭikkunnu.)</h2>
+    <main class="mainContainer" id="card">
 
-    <button id="nextButton">Next</button>
+        <div class="cardContainer" id="engCardContent">
+            <h2 class="cardItem" id="category">Noun</h2>
+            <h2 class="cardItem" id="english">Water</h2>
+            <h2 class="cardItem" id="placeholder"></h2>
+            <h3>Click to Flip</h3>
+        </div>
 
-<script src="flashcards.js"></script>   
+        <div class="cardContainer" id="malCardContent">
+            <h2 class="cardItem" id="malayalam">വെള്ളം"</h2>
+            <h2 class="cardItem" id="transliteration">veḷḷam</h2>
+            <h2 class="cardItem" id="example">I drink water. → ഞാൻ വെള്ളം കുടിക്കുന്നു. (ñān veḷḷam kuṭikkunnu.)</h2>
+            <h3>Click to Flip</h3>
+        </div>
+        
+        <div class="cardButtons" id="cardButtons">
+            <button id="nextButton">Next</button>
+            <button id="prevButton">Previous</button>
+            <button id="shuffleButton">Shuffle</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+    </main>
+
+    <script src="flashcards.js"></script>
+    <script type="module" src="https://esm.sh/ionicons@latest/loader"></script>
+    <script nomodule src="https://esm.sh/ionicons@latest/loader"></script>   
 </body>
 
 </html>
