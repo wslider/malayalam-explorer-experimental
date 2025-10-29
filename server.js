@@ -1,12 +1,15 @@
-const express = require('express');
-const cors = require('cors'); 
-const bodyParser = require('body-parser'); 
-const fs = require('fs');
-const path = require('path'); 
+// use ES modules 
+
+import express from "express"; 
+import cors from "cors"; 
+import bodyParser from "body-parser"; 
+import fs from "fs"; 
+import path from "path"; 
+
 
 const app = express();
 const port = 3002;
-const DATA_PATH = path.join(__dirname, 'data', 'flashcards.json');
+const DATA_PATH = path.join(process.cwd(),'data', 'flashcards.json'); 
 
 //middleware 
 
