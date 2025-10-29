@@ -1,57 +1,35 @@
-import express from "express";
+const express = require('express');
+const cors = require('cors'); 
+const bodyParser = require('body-parser'); 
+const fs = require('fs');
+const path = require('path'); 
 
 const app = express();
-const port = 2030;
+const port = 3002;
+const DATA_PATH = path.join(__dirname, 'data', 'flashcards.json');
 
-const flashcards = [
-    {
-      "id": 1,
-      "category": "Nouns",
-      "english": "House",
-      "engExample": "I live in a house.",
-      "malayalam": "വീട്",
-      "transliteration": "vīṭŭ",
-      "malExample": "ഞാൻ ഒരു വീട്ടിൽ വസിക്കുന്നു. (ñān oru vīṭṭil vasikkunnu.)",
-    },
-    {
-      "id": 2,
-      "category": "Nouns",
-      "english": "Water",
-      "engExample": "I drink water.",
-      "malayalam": "വെള്ളം",
-      "transliteration": "veḷḷam",
-      "malExample": "ഞാൻ വെള്ളം കുടിക്കുന്നു. (ñān veḷḷam kuṭikkunnu.)",
-    },
-    {
-      "id": 3,
-      "category": "Nouns",
-      "english": "Food",
-      "engExample": "The food is delicious.",
-      "malayalam": "ഭക്ഷണം",
-      "transliteration": "bhakṣaṇam",
-      "malExample": "ഭക്ഷണം രുചികരമാണ്. (bhakṣaṇam rucikaramāṇŭ.)",
-    },
-    {
-      "id": 4,
-      "category": "Nouns",
-      "english": "Family",
-      "engExample": "My family is big.",
-      "malayalam": "കുടുംബം",
-      "transliteration": "kuṭumbam",
-      "malExample": "എന്റെ കുടുംബം വലുതാണ്. (ente kuṭumbam valumāṇŭ.)",
-    },
-    {
-      "id": 5,
-      "category": "Nouns",
-      "english": "Friend",
-      "engExample": "My friend is kind.",
-      "malayalam": "സുഹൃത്ത്",
-      "transliteration": "suhr̥t",
-      "malExample": "എന്റെ സുഹൃത്ത് ദയാലുവാണ്. (ente suhr̥t dayāluvāṇŭ.)",
-    }
-]
+//middleware 
 
-function getAllFlashcards() {
+app.use(cors()); 
+app.use(bodyParser.json());
+app.use(express.static('public'));
+
+//Routes
+
+app.get('api/flashcards', (req, res) => {}); // GET all
+app.get('api/flashcards/:id', (req, res) => {}); // GET one
+app.post('api/flashcards', (req , res) => {}); // POST 
+app.put('api/flashcards/:id', (req , res) => {}); // PUT
+app.delete('api/flashcards/:id', (req, res) => {}); // DELETE 
+
+//start server
+
+app.listen(port, ()=> {console.log(`Server running on http://localhost:${port}`)}); 
+
+
+
+
+/* function getAllFlashcards() {
     return flashcards;
 }
 
@@ -81,4 +59,4 @@ app.get("/api/flashcards/:id", (request, response) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
     console.log("Press Ctrl+C to end this process.");
-});
+});*/
