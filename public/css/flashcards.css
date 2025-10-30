@@ -13,3 +13,14 @@
         gap: 5%; 
     }
 
+    .mainContainer {
+      display: flex; 
+      flex-direction: column;
+    }
+
+    .cardContainer.flipped 
+
+    #newCardForm {
+      font-display: flex;
+      flex-direction: column;
+    }
