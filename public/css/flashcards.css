@@ -16,11 +16,40 @@
     .mainContainer {
       display: flex; 
       flex-direction: column;
+      justify-content: space-evenly;
+      gap: 2vh; 
     }
 
-    .cardContainer.flipped 
+    .cardContainer {
+      height: 50vh; 
+      width: 95vw; 
+      margin: 10px;
+      border: 5px solid whitesmoke; 
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .cardItem {
+      margin-top: 10px;
+      margin-bottom: 10px; 
+    }
+
+    .cardItem.top{
+      margin-top: 75px; 
+    }
+
+    .cardButtons {
+      display: flex; 
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 5px;
+    } 
 
     #newCardForm {
-      font-display: flex;
+      display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
+      gap: 5px; 
     }
+
+    /* display is toggled in js for card content 
