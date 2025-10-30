@@ -43,7 +43,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     - JSON , JS , flashcards.html 
     - start with 50 most common words (unique phrases)
     - shuffle mode 
-    - images?... use own images or API callout to USPLASH  
+    - malExampleTranslits?... use own malExampleTranslits or API callout to USPLASH  
 
     - Stretch Goals: 
         - remember progress 
@@ -60,7 +60,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
         - persist data? 
         - user progress on flashcards? 
         - user prefferences and settings? 
-        - images and data for notecards .. earmark some to review again 
+        - malExampleTranslits and data for notecards .. earmark some to review again 
 
     Persist Data in Local Storage:
     - remember user progress on flashcards and settings 
@@ -136,7 +136,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     - flashcards.json
     - alphabet.json
     - locations.json
-  - **images/**
+  - **malExampleTranslits/**
     - kerala.png
     - trivandrum.png
     - kochi.png
