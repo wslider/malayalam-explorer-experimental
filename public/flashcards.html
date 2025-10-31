@@ -7,19 +7,23 @@
     <title>Flashcards</title>
 </head>
 
-<body >
+<body>
+
+    <div class="topNav" id="topNavBar">
+            <a href="index.html">Home</a>
+    </div>
 
     <main class="mainContainer" id="card">
 
         <div class="cardContainer" id="engCardContent">
-                <h2 class="cardItem top" id="category">Category</h2> 
+                <h3 class="cardItem top" id="category">Category</h2> 
                 <h2 class="cardItem" id="english">English Word</h2>
                 <h2 class="cardItem" id="engExample">English Example</h2>
                 <h3 class="cardItem">Click to Flip</h3>
         </div>
 
         <div class="cardContainer" id="malCardContent">
-                <h2 class="cardItem top" id="malayalam">മലയാളം</h2>  
+                <h3 class="cardItem top" id="malayalam">മലയാളം</h2>  
                 <h2 class="cardItem" id="translit">Transliteration</h2>
                 <h2 class="cardItem" id="malExample">Malayalam Example</h2>
                 <h2 class="cardItem" id="malExampleTranslit">Example Transliteratinomon</h2>
@@ -47,6 +51,7 @@
     </main>
 
     <script src="flashcards.js"></script>
+    <script src="navBar.js"></script>
     <script type="module" src="https://esm.sh/ionicons@latest/loader"></script>
     <script nomodule src="https://esm.sh/ionicons@latest/loader"></script>   
 </body>
