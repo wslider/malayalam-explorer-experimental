@@ -136,7 +136,7 @@ function updateGreetings() {
 updateGreetings();
 
 // Update every second
-setInterval(updateGreetings, 1000);
+setInterval(updateGreetings, 60000);
 
 
 
