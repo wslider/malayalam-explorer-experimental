@@ -1,5 +1,3 @@
-import { response } from "express";
-
 let flashcards = []; // Global array of cards
 let currentIndex = 0;
 let isFlipped = false; 
@@ -125,7 +123,7 @@ document.getElementById('resetButton').addEventListener('click', () => {
 });
 
 // DELETE current card
-document.getElementById('deleteButton').addEventListener('click', async ()=>{
+/* document.getElementById('deleteButton').addEventListener('click', async ()=>{
     if (flashcards.length === 0 || !flashcards[currentIndex]) {
         console.warn('Nothing to delete.');
         return;}
@@ -163,7 +161,7 @@ document.getElementById('deleteButton').addEventListener('click', async ()=>{
         alert('Failed to delete card. Check console for details.');
         loadFlashcards(); 
     }
-});
+}); */
 
 // New Card Form: POST to API, refresh list
 document.getElementById('newCardForm').addEventListener('submit', async (e) => {
@@ -204,3 +202,4 @@ loadFlashcards();
 isFlipped = false;
 engCard.style.display = 'block';
 malCard.style.display = 'none';
+
