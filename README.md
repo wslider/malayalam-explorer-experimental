@@ -152,7 +152,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     - munnar.overpass
 - **.gitignore**
 
-## AI Usage: 
+## Delete Card event listener in flashcards.js 
 
 
 

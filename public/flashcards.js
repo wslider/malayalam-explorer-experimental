@@ -1,3 +1,5 @@
+import { response } from "express";
+
 let flashcards = []; // Global array of cards
 let currentIndex = 0;
 let isFlipped = false; 
@@ -120,6 +122,47 @@ document.getElementById('shuffleButton').addEventListener('click', () => {
 document.getElementById('resetButton').addEventListener('click', () => {
     loadFlashcards();
     isShuffled = false; 
+});
+
+// DELETE current card
+document.getElementById('deleteButton').addEventListener('click', async ()=>{
+    if (flashcards.length === 0 || !flashcards[currentIndex]) {
+        console.warn('Nothing to delete.');
+        return;}
+    const card = flashcards[currentIndex]; 
+    if (!confirm(`Delete "${card.english}" (${card.category})? This cannot be undone!`)){
+        return; 
+    }
+    try {
+        if (card.id) {
+            const response = await fetch(`/api/flashcards/${card.id}`);
+            method = 'DELETE'; 
+        }
+        if (!response.ok) {
+                throw new Error(`DELETE failed: ${response.status}`);
+            }
+
+        flashcards.splice(currentIndex, 1);
+
+        if (currentIndex >= flashcards.length) {
+            currentIndex = Math.max(0, flashcards.length - 1); }
+
+        isFlipped = false;
+        engCard.style.display = 'block';
+        malCard.style.display = 'none';
+
+        if (flashcards.length > 0) {
+            displayCard(); 
+        }
+        else {
+            alert('All Cards deleted. Create new cards using the form.');
+        }
+    }
+    catch (err) {
+        console.error('Delete failed:', err);
+        alert('Failed to delete card. Check console for details.');
+        loadFlashcards(); 
+    }
 });
 
 // New Card Form: POST to API, refresh list
