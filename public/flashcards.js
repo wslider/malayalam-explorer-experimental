@@ -123,7 +123,7 @@ document.getElementById('resetButton').addEventListener('click', () => {
 });
 
 // DELETE current card
-/* document.getElementById('deleteButton').addEventListener('click', async ()=>{
+document.getElementById('deleteButton').addEventListener('click', async ()=>{
     if (flashcards.length === 0 || !flashcards[currentIndex]) {
         console.warn('Nothing to delete.');
         return;}
@@ -161,7 +161,7 @@ document.getElementById('resetButton').addEventListener('click', () => {
         alert('Failed to delete card. Check console for details.');
         loadFlashcards(); 
     }
-}); */
+});
 
 // New Card Form: POST to API, refresh list
 document.getElementById('newCardForm').addEventListener('submit', async (e) => {
