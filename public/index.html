@@ -7,17 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="topNav" id="topNavBar">
-            <a href="flashcards.html">Flashcards</a>
+
+    <div class="topNav" id="topNavBar">
+        <a href="flashcards.html">Flashcards</a>
     </div>
-<header>
-    <h1 class="welcome" id="welcomeMsg">സ്വാഗതം</h1>
-</header>
-<h2 class="weatherData" id="munnarWeather"></h2>
-<h2 class="weatherData" id="trivandrumWeather"></h2>
-<h2 class="greeting" id="localTimeGreetingText"></h2>
-<h2 class="greeting" id="keralaTimeGreetingText"></h2>
-<img class="image map" id="keralaMap" src="images/kerala-map-landscape.png" alt="Map of Kerala and South India."> 
+
+    <header>
+        <h1 class="welcome" id="welcomeMsg">സ്വാഗതം</h1>
+    </header>
+
+    <h2 class="weatherData" id="munnarWeather"></h2>
+    <h2 class="weatherData" id="trivandrumWeather"></h2>
+
+    <div class="infoContainer">
+        <h2 class="greeting" id="localTimeGreetingText"></h2>
+        <h2 class="greeting" id="keralaTimeGreetingText"></h2>
+    </div>
+
+    <div class="mapDiv">
+        <figure>
+            <a href="https://www.openstreetmap.org/relation/2018151#map=7/10.785/76.707&layers=P" target="_blank">
+                <img class="image map" id="keralaMap" src="images/kerala-map-square.png" alt="Map of Kerala and South India.">
+            </a>
+            <figcaption>Map of Kerala & Southern India. Click to Open and Navigate in OSM.</figcaption>
+        </figure>
+    </div> 
+
+    <footer class="footer">The Malayalam Explorer - 2025</footer>
+
 <script src="weather.js"></script>
 <script src="script.js"></script>
 </body>

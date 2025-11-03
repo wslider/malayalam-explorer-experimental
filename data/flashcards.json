@@ -5,9 +5,9 @@
     "english": "House",
     "engExample": "I live in a house.",
     "malayalam": "വീട്",
-    "transliteration": "vīṭŭ",
+    "transliteration": "viitu",
     "malExample": "ഞാൻ ഒരു വീട്ടിൽ വസിക്കുന്നു.",
-    "malExampleTranslit": "(ñān oru vīṭṭil vasikkunnu.)"
+    "malExampleTranslit": "(nyaan oru viittil vasikkunnu.)"
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
     "english": "Water",
     "engExample": "I drink water.",
     "malayalam": "വെള്ളം",
-    "transliteration": "veḷḷam",
+    "transliteration": "vellam",
     "malExample": "ഞാൻ വെള്ളം കുടിക്കുന്നു.",
-    "malExampleTranslit": "(ñān veḷḷam kuṭikkunnu.)"
+    "malExampleTranslit": "(nyaan vellam kutikkunnu.)"
   },
   {
     "id": 3,
@@ -25,9 +25,9 @@
     "english": "Food",
     "engExample": "The food is delicious.",
     "malayalam": "ഭക്ഷണം",
-    "transliteration": "bhakṣaṇam",
+    "transliteration": "bhakshanam",
     "malExample": "ഭക്ഷണം രുചികരമാണ്.",
-    "malExampleTranslit": "(bhakṣaṇam rucikaramāṇŭ.)"
+    "malExampleTranslit": "(bhakshanam ruchikaramaanu.)"
   },
   {
     "id": 4,
@@ -35,9 +35,9 @@
     "english": "Family",
     "engExample": "My family is big.",
     "malayalam": "കുടുംബം",
-    "transliteration": "kuṭumbam",
+    "transliteration": "kutumbam",
     "malExample": "എന്റെ കുടുംബം വലുതാണ്.",
-    "malExampleTranslit": "(ente kuṭumbam valumāṇŭ.)"
+    "malExampleTranslit": "(ente kutumbam valuthaanu.)"
   },
   {
     "id": 5,
@@ -45,9 +45,9 @@
     "english": "Friend",
     "engExample": "My friend is kind.",
     "malayalam": "സുഹൃത്ത്",
-    "transliteration": "suhr̥t",
+    "transliteration": "suhrit",
     "malExample": "എന്റെ സുഹൃത്ത് ദയാലുവാണ്.",
-    "malExampleTranslit": "(ente suhr̥t dayāluvāṇŭ.)"
+    "malExampleTranslit": "(ente suhrit dayaaluvaanu.)"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "malayalam": "സമയം",
     "transliteration": "samayam",
     "malExample": "സമയം എത്രയാണ്?",
-    "malExampleTranslit": "(samayam etrayāṇŭ?)"
+    "malExampleTranslit": "(samayam etrayaanu?)"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "malayalam": "ദിവസം",
     "transliteration": "divasam",
     "malExample": "ഇന്ന് ഒരു നല്ല ദിവസമാണ്.",
-    "malExampleTranslit": "(innŭ oru nalla divasamāṇŭ.)"
+    "malExampleTranslit": "(innu oru nalla divasamaanu.)"
   },
   {
     "id": 8,
@@ -75,9 +75,9 @@
     "english": "Year",
     "engExample": "This year is special.",
     "malayalam": "വർഷം",
-    "transliteration": "varṣam",
+    "transliteration": "varsham",
     "malExample": "ഈ വർഷം പ്രത്യേകമാണ്.",
-    "malExampleTranslit": "(ī varṣam pratyēkamāṇŭ.)"
+    "malExampleTranslit": "(ii varsham pratyeekamaanu.)"
   },
   {
     "id": 9,
@@ -85,9 +85,9 @@
     "english": "Month",
     "engExample": "This month is busy.",
     "malayalam": "മാസം",
-    "transliteration": "māsaṁ",
+    "transliteration": "maasam",
     "malExample": "ഈ മാസം തിരക്കേറിയതാണ്.",
-    "malExampleTranslit": "(ī māsaṁ tirakkēṟiyatāṇŭ.)"
+    "malExampleTranslit": "(ii maasam tirakkeeriyataanu.)"
   },
   {
     "id": 10,
@@ -95,9 +95,9 @@
     "english": "Week",
     "engExample": "I work this week.",
     "malayalam": "ആഴ്ച",
-    "transliteration": "āḻca",
+    "transliteration": "aazhcha",
     "malExample": "ഞാൻ ഈ ആഴ്ച ജോലി ചെയ്യുന്നു.",
-    "malExampleTranslit": "(ñān ī āḻca jōli ceyyunnu.)"
+    "malExampleTranslit": "(nyaan ii aazhcha jooli cheyyunnu.)"
   },
   {
     "id": 11,
@@ -105,9 +105,9 @@
     "english": "Hour",
     "engExample": "I wait one hour.",
     "malayalam": "മണിക്കൂർ",
-    "transliteration": "maṇikkūr",
+    "transliteration": "manikkuur",
     "malExample": "ഞാൻ ഒരു മണിക്കൂർ കാത്തിരിക്കുന്നു.",
-    "malExampleTranslit": "(ñān oru maṇikkūr kāttirikkunnu.)"
+    "malExampleTranslit": "(nyaan oru manikkuur kaattirikkunnu.)"
   },
   {
     "id": 12,
@@ -115,9 +115,9 @@
     "english": "Minute",
     "engExample": "Wait a minute.",
     "malayalam": "മിനിറ്റ്",
-    "transliteration": "miniṭṭŭ",
+    "transliteration": "minittu",
     "malExample": "ഒരു മിനിറ്റ് കാത്തിരിക്കൂ.",
-    "malExampleTranslit": "(oru miniṭṭŭ kāttirikku.)"
+    "malExampleTranslit": "(oru minittu kaattirikku.)"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "malayalam": "നമ്പർ",
     "transliteration": "nambar",
     "malExample": "നിന്റെ നമ്പർ എന്താണ്?",
-    "malExampleTranslit": "(niṉṉte nambar eṉtāṇŭ?)"
+    "malExampleTranslit": "(ninnte nambar entaanu?)"
   },
   {
     "id": 14,
@@ -135,9 +135,9 @@
     "english": "One",
     "engExample": "I have one book.",
     "malayalam": "ഒന്ന്",
-    "transliteration": "onnŭ",
+    "transliteration": "onnu",
     "malExample": "എനിക്ക് ഒരു പുസ്തകം ഉണ്ട്.",
-    "malExampleTranslit": "(enikku oru pustakam uṇṭŭ.)"
+    "malExampleTranslit": "(enikku oru pustakam untu.)"
   },
   {
     "id": 15,
@@ -145,9 +145,9 @@
     "english": "Two",
     "engExample": "I see two birds.",
     "malayalam": "രണ്ട്",
-    "transliteration": "raṇṭŭ",
+    "transliteration": "rantu",
     "malExample": "ഞാൻ രണ്ട് പക്ഷികൾ കാണുന്നു.",
-    "malExampleTranslit": "(ñān raṇṭŭ pakṣikaḷ kāṇunnu.)"
+    "malExampleTranslit": "(nyaan rantu pakshikal kaanunnu.)"
   },
   {
     "id": 16,
@@ -155,9 +155,9 @@
     "english": "Three",
     "engExample": "I have three pens.",
     "malayalam": "മൂന്ന്",
-    "transliteration": "mūnnŭ",
+    "transliteration": "muunnu",
     "malExample": "എനിക്ക് മൂന്ന് പേനകൾ ഉണ്ട്.",
-    "malExampleTranslit": "(enikku mūnnŭ pēnakaḷ uṇṭŭ.)"
+    "malExampleTranslit": "(enikku muunnu peenakal untu.)"
   },
   {
     "id": 17,
@@ -165,9 +165,9 @@
     "english": "Four",
     "engExample": "I bought four fruits.",
     "malayalam": "നാല്",
-    "transliteration": "nāl",
+    "transliteration": "naal",
     "malExample": "ഞാൻ നാല് പഴങ്ങൾ വാങ്ങി.",
-    "malExampleTranslit": "(ñān nāl paḻaṅṅaḷ vāṅṅi.)"
+    "malExampleTranslit": "(nyaan naal pazhaṅṅal vaaṅṅi.)"
   },
   {
     "id": 18,
@@ -175,9 +175,9 @@
     "english": "Five",
     "engExample": "Five people are here.",
     "malayalam": "അഞ്ച്",
-    "transliteration": "añcŭ",
+    "transliteration": "anychu",
     "malExample": "അഞ്ച് ജനങ്ങൾ ഇവിടെയാണ്.",
-    "malExampleTranslit": "(añcŭ janaṅṅaḷ iviṭeyāṇŭ.)"
+    "malExampleTranslit": "(anychu janaṅṅal iviteyaanu.)"
   },
   {
     "id": 19,
@@ -185,9 +185,9 @@
     "english": "Six",
     "engExample": "I see six stars.",
     "malayalam": "ആറ്",
-    "transliteration": "āṟŭ",
+    "transliteration": "aaru",
     "malExample": "ഞാൻ ആറ് നക്ഷത്രങ്ങൾ കാണുന്നു.",
-    "malExampleTranslit": "(ñān āṟŭ nakṣatraṅṅaḷ kāṇunnu.)"
+    "malExampleTranslit": "(nyaan aaru nakshatraṅṅal kaanunnu.)"
   },
   {
     "id": 20,
@@ -195,9 +195,9 @@
     "english": "Seven",
     "engExample": "Seven days in a week.",
     "malayalam": "ഏഴ്",
-    "transliteration": "ēḻŭ",
+    "transliteration": "eezhu",
     "malExample": "ഒരു ആഴ്ചയിൽ ഏഴ് ദിവസങ്ങൾ.",
-    "malExampleTranslit": "(oru āḻcayil ēḻŭ divasaṅṅaḷ.)"
+    "malExampleTranslit": "(oru aazhchayil eezhu divasaṅṅal.)"
   },
   {
     "id": 21,
@@ -205,9 +205,9 @@
     "english": "Eight",
     "engExample": "I have eight books.",
     "malayalam": "എട്ട്",
-    "transliteration": "eṭṭŭ",
+    "transliteration": "ettu",
     "malExample": "എനിക്ക് എട്ട് പുസ്തകങ്ങൾ ഉണ്ട്.",
-    "malExampleTranslit": "(enikku eṭṭŭ pustakaṅṅaḷ uṇṭŭ.)"
+    "malExampleTranslit": "(enikku ettu pustakaṅṅal untu.)"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "malayalam": "ഒമ്പത്",
     "transliteration": "ompat",
     "malExample": "ഒമ്പത് പൂക്കൾ വിരിയുന്നു.",
-    "malExampleTranslit": "(ompat pūkkaḷ viriyunnu.)"
+    "malExampleTranslit": "(ompat puukkal viriyunnu.)"
   },
   {
     "id": 23,
@@ -225,9 +225,9 @@
     "english": "Ten",
     "engExample": "Ten children play.",
     "malayalam": "പത്ത്",
-    "transliteration": "patŭ",
+    "transliteration": "patu",
     "malExample": "പത്ത് കുട്ടികൾ കളിക്കുന്നു.",
-    "malExampleTranslit": "(patŭ kuṭṭikaḷ kaḷikkunnu.)"
+    "malExampleTranslit": "(patu kuttikal kalikkunnu.)"
   },
   {
     "id": 24,
@@ -235,9 +235,9 @@
     "english": "Child",
     "engExample": "The child is playing.",
     "malayalam": "കുട്ടി",
-    "transliteration": "kuṭṭi",
+    "transliteration": "kutti",
     "malExample": "കുട്ടി കളിക്കുന്നു.",
-    "malExampleTranslit": "(kuṭṭi kaḷikkunnu.)"
+    "malExampleTranslit": "(kutti kalikkunnu.)"
   },
   {
     "id": 25,
@@ -245,9 +245,9 @@
     "english": "Man",
     "engExample": "The man is strong.",
     "malayalam": "പുരുഷൻ",
-    "transliteration": "puruṣan",
+    "transliteration": "purushan",
     "malExample": "പുരുഷൻ ശക്തനാണ്.",
-    "malExampleTranslit": "(puruṣan śaktanāṇŭ.)"
+    "malExampleTranslit": "(purushan shaktanaanu.)"
   },
   {
     "id": 26,
@@ -255,9 +255,9 @@
     "english": "Woman",
     "engExample": "The woman is kind.",
     "malayalam": "സ്ത്രീ",
-    "transliteration": "strī",
+    "transliteration": "strii",
     "malExample": "സ്ത്രീ ദയാലുവാണ്.",
-    "malExampleTranslit": "(strī dayāluvāṇŭ.)"
+    "malExampleTranslit": "(strii dayaaluvaanu.)"
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "malayalam": "അമ്മ",
     "transliteration": "amma",
     "malExample": "എന്റെ അമ്മ നന്നായി പാചകം ചെയ്യുന്നു.",
-    "malExampleTranslit": "(ente amma nannāyi pācakaṁ ceyyunnu.)"
+    "malExampleTranslit": "(ente amma nannaayi paachakam cheyyunnu.)"
   },
   {
     "id": 28,
@@ -275,9 +275,9 @@
     "english": "Father",
     "engExample": "My father is at work.",
     "malayalam": "അച്ഛൻ",
-    "transliteration": "accan",
+    "transliteration": "achchan",
     "malExample": "എന്റെ അച്ഛൻ ജോലിയിലാണ്.",
-    "malExampleTranslit": "(ente accan jōliyilāṇŭ.)"
+    "malExampleTranslit": "(ente achchan jooliyilaanu.)"
   },
   {
     "id": 29,
@@ -285,9 +285,9 @@
     "english": "Brother",
     "engExample": "My brother is tall.",
     "malayalam": "സഹോദരൻ",
-    "transliteration": "sahōdaran",
+    "transliteration": "sahoodaran",
     "malExample": "എന്റെ സഹോദരൻ ഉയരമാണ്.",
-    "malExampleTranslit": "(ente sahōdaran uyaramāṇŭ.)"
+    "malExampleTranslit": "(ente sahoodaran uyaramaanu.)"
   },
   {
     "id": 30,
@@ -295,9 +295,9 @@
     "english": "Sister",
     "engExample": "My sister is studying.",
     "malayalam": "സഹോദരി",
-    "transliteration": "sahōdari",
+    "transliteration": "sahoodari",
     "malExample": "എന്റെ സഹോദരി പഠിക്കുന്നു.",
-    "malExampleTranslit": "(ente sahōdari paṭhikkunnu.)"
+    "malExampleTranslit": "(ente sahoodari pathikkunnu.)"
   },
   {
     "id": 31,
@@ -305,9 +305,9 @@
     "english": "Dog",
     "engExample": "The dog is barking.",
     "malayalam": "നായ",
-    "transliteration": "nāya",
+    "transliteration": "naaya",
     "malExample": "നായ കുരയ്ക്കുന്നു.",
-    "malExampleTranslit": "(nāya kuraykkunnu.)"
+    "malExampleTranslit": "(naaya kuraykkunnu.)"
   },
   {
     "id": 32,
@@ -315,9 +315,9 @@
     "english": "Cat",
     "engExample": "The cat is sleeping.",
     "malayalam": "പൂച്ച",
-    "transliteration": "pūcca",
+    "transliteration": "puuchcha",
     "malExample": "പൂച്ച ഉറങ്ങുന്നു.",
-    "malExampleTranslit": "(pūcca uṟaṅṅunnu.)"
+    "malExampleTranslit": "(puuchcha uraṅṅunnu.)"
   },
   {
     "id": 33,
@@ -325,9 +325,9 @@
     "english": "Bird",
     "engExample": "The bird is flying.",
     "malayalam": "പക്ഷി",
-    "transliteration": "pakṣi",
+    "transliteration": "pakshi",
     "malExample": "പക്ഷി പറക്കുന്നു.",
-    "malExampleTranslit": "(pakṣi paṟakkunnu.)"
+    "malExampleTranslit": "(pakshi parakkunnu.)"
   },
   {
     "id": 34,
@@ -335,9 +335,9 @@
     "english": "Fish",
     "engExample": "I eat fish.",
     "malayalam": "മീൻ",
-    "transliteration": "mīn",
+    "transliteration": "miin",
     "malExample": "ഞാൻ മീൻ തിന്നുന്നു.",
-    "malExampleTranslit": "(ñān mīn tiṉṉunnu.)"
+    "malExampleTranslit": "(nyaan miin tinnunnu.)"
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "malayalam": "മരം",
     "transliteration": "maram",
     "malExample": "മരം ഉയരമാണ്.",
-    "malExampleTranslit": "(maram uyaramāṇŭ.)"
+    "malExampleTranslit": "(maram uyaramaanu.)"
   },
   {
     "id": 36,
@@ -355,9 +355,9 @@
     "english": "Flower",
     "engExample": "The flower is beautiful.",
     "malayalam": "പൂവ്",
-    "transliteration": "pūv",
+    "transliteration": "puuv",
     "malExample": "പൂവ് മനോഹരമാണ്.",
-    "malExampleTranslit": "(pūv manōharamāṇŭ.)"
+    "malExampleTranslit": "(puuv manooharamaanu.)"
   },
   {
     "id": 37,
@@ -365,9 +365,9 @@
     "english": "Sun",
     "engExample": "The sun is bright.",
     "malayalam": "സൂര്യൻ",
-    "transliteration": "sūryan",
+    "transliteration": "suuryan",
     "malExample": "സൂര്യൻ പ്രകാശമാണ്.",
-    "malExampleTranslit": "(sūryan prakāśamāṇŭ.)"
+    "malExampleTranslit": "(suuryan prakaashamaanu.)"
   },
   {
     "id": 38,
@@ -375,9 +375,9 @@
     "english": "Moon",
     "engExample": "The moon is full.",
     "malayalam": "ചന്ദ്രൻ",
-    "transliteration": "candran",
+    "transliteration": "chandran",
     "malExample": "ചന്ദ്രൻ നിറഞ്ഞിരിക്കുന്നു.",
-    "malExampleTranslit": "(candran niṟaññirikkunnu.)"
+    "malExampleTranslit": "(chandran niranynyirikkunnu.)"
   },
   {
     "id": 39,
@@ -385,9 +385,9 @@
     "english": "Star",
     "engExample": "I see a star.",
     "malayalam": "നക്ഷത്രം",
-    "transliteration": "nakṣatram",
+    "transliteration": "nakshatram",
     "malExample": "ഞാൻ ഒരു നക്ഷത്രം കാണുന്നു.",
-    "malExampleTranslit": "(ñān oru nakṣatram kāṇunnu.)"
+    "malExampleTranslit": "(nyaan oru nakshatram kaanunnu.)"
   },
   {
     "id": 40,
@@ -395,9 +395,9 @@
     "english": "Sky",
     "engExample": "The sky is blue.",
     "malayalam": "ആകാശം",
-    "transliteration": "ākāśam",
+    "transliteration": "aakaasham",
     "malExample": "ആകാശം നീലമാണ്.",
-    "malExampleTranslit": "(ākāśam nīlamāṇŭ.)"
+    "malExampleTranslit": "(aakaasham niilamaanu.)"
   },
   {
     "id": 41,
@@ -405,9 +405,9 @@
     "english": "Earth",
     "engExample": "The earth is green.",
     "malayalam": "ഭൂമി",
-    "transliteration": "bhūmi",
+    "transliteration": "bhuumi",
     "malExample": "ഭൂമി പച്ചയാണ്.",
-    "malExampleTranslit": "(bhūmi paccayāṇŭ.)"
+    "malExampleTranslit": "(bhuumi pachchayaanu.)"
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "malayalam": "മല",
     "transliteration": "mala",
     "malExample": "മല ഉയർന്നതാണ്.",
-    "malExampleTranslit": "(mala uyaṟṉṉatāṇŭ.)"
+    "malExampleTranslit": "(mala uyarnnataanu.)"
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "malayalam": "നദി",
     "transliteration": "nadi",
     "malExample": "നദി വേഗത്തിൽ ഒഴുകുന്നു.",
-    "malExampleTranslit": "(nadi vēgattil oḻukunnu.)"
+    "malExampleTranslit": "(nadi veegattil ozhukunnu.)"
   },
   {
     "id": 44,
@@ -435,9 +435,9 @@
     "english": "Sea",
     "engExample": "The sea is calm.",
     "malayalam": "കടൽ",
-    "transliteration": "kaṭal",
+    "transliteration": "katal",
     "malExample": "കടൽ ശാന്തമാണ്.",
-    "malExampleTranslit": "(kaṭal śāntamāṇŭ.)"
+    "malExampleTranslit": "(katal shaantamaanu.)"
   },
   {
     "id": 45,
@@ -445,9 +445,9 @@
     "english": "Road",
     "engExample": "The road is long.",
     "malayalam": "പാത",
-    "transliteration": "pāta",
+    "transliteration": "paata",
     "malExample": "പാത നീണ്ടതാണ്.",
-    "malExampleTranslit": "(pāta nīṇṭatāṇŭ.)"
+    "malExampleTranslit": "(paata niintataanu.)"
   },
   {
     "id": 46,
@@ -455,9 +455,9 @@
     "english": "Market",
     "engExample": "I go to the market.",
     "malayalam": "ചന്ത",
-    "transliteration": "canta",
+    "transliteration": "chanta",
     "malExample": "ഞാൻ ചന്തയിൽ പോകുന്നു.",
-    "malExampleTranslit": "(ñān cantayil pōkunnu.)"
+    "malExampleTranslit": "(nyaan chantayil pookunnu.)"
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "malayalam": "നഗരം",
     "transliteration": "nagaram",
     "malExample": "നഗരം തിരക്കേറിയതാണ്.",
-    "malExampleTranslit": "(nagaram tirakkēṟiyatāṇŭ.)"
+    "malExampleTranslit": "(nagaram tirakkeeriyataanu.)"
   },
   {
     "id": 48,
@@ -475,9 +475,9 @@
     "english": "Village",
     "engExample": "The village is quiet.",
     "malayalam": "ഗ്രാമം",
-    "transliteration": "grāmam",
+    "transliteration": "graamam",
     "malExample": "ഗ്രാമം ശാന്തമാണ്.",
-    "malExampleTranslit": "(grāmam śāntamāṇŭ.)"
+    "malExampleTranslit": "(graamam shaantamaanu.)"
   },
   {
     "id": 49,
@@ -485,9 +485,9 @@
     "english": "School",
     "engExample": "The school is open.",
     "malayalam": "വിദ്യാലയം",
-    "transliteration": "vidyālayam",
+    "transliteration": "vidyaalayam",
     "malExample": "വിദ്യാലയം തുറന്നിരിക്കുന്നു.",
-    "malExampleTranslit": "(vidyālayam tuṟaṉṉirikkunnu.)"
+    "malExampleTranslit": "(vidyaalayam turannirikkunnu.)"
   },
   {
     "id": 50,
@@ -497,7 +497,9 @@
     "malayalam": "പുസ്തകം",
     "transliteration": "pustakam",
     "malExample": "ഞാൻ ഒരു പുസ്തകം വായിക്കുന്നു.",
-    "malExampleTranslit": "(ñān oru pustakam vāyikkunnu.)"
+    "malExampleTranslit": "(nyaan oru pustakam vaayikkunnu.)"
   }
 ]
+
+
 
