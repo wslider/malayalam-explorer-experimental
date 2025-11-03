@@ -1,10 +1,10 @@
 # Malayalam Explorer 
 
-Overview:
+## Overview:
 
 A Code:You capstone project highlighting HTML, CSS, and JavaScript abilities.
 
-Project Overview:
+## Project Overview:
 
 Educational app for Malayali diaspora and Travelers seeking to explore Kerala's language, geography and culture. 
 
@@ -15,11 +15,10 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 |------|-------------|
 | **Index / Home Page** | Includes a map and information about Kerala, World Clock displaying User's Local Time and IST, and navigation to language flashcardsa and featured location pages. |
 | **Flashcards** | Learn Malayalam with interactive flashcards of the most commonly used words with example phrases. |
-
-| **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. |
-| **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. |
-| **Munnar** | Featured location page for the mountain town of Munnar including a map, weather data and information. |
-| **Kochi** | Featured location page for the port city including a map, weather data and information. |
+| **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. (Advanced Feature)|
+| **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. (Advanced Feature)|
+| **Munnar** | Featured location page for the mountain town of Munnar including a map, weather data and information. (Advanced Feature)|
+| **Kochi** | Featured location page for the port city including a map, weather data and information. (Advanced Feature)|
 
 
 ## Capstone Requirements Fulfilled
@@ -146,7 +145,9 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 ## AI USAGE - Grok 4 Assistance in Creating the Following ... 
 -  Delete Card event listener in flashcards.js 
 -  Post Card event listener in flashcards.js
--  function updateKeralaTimeGreeting() in script.js 
+-  The function updateKeralaTimeGreeting() in script.js 
+-  Obtaining Initial List & Translations of Most Commonly Used Words and Example Phrases for flashcards - flashcards.json 
+    - * Translations checked and verified by native Malayalam speakers 
 
 
 
