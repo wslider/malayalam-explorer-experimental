@@ -81,7 +81,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 
 
 
-* 10 Distinct commits
+## 10 Distinct commits
     1. ReadME and Project Proposal + Create Repository
     2. Site Organization - created files, folders (incling gitignore) 
     3. API 
