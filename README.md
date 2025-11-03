@@ -2,7 +2,7 @@
 
 Overview:
 
-A Code: You capstone project highlighting HTML, CSS, and JavaScript abilities.
+A Code:You capstone project highlighting HTML, CSS, and JavaScript abilities.
 
 Project Overview:
 
@@ -13,57 +13,71 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 
 | Page | Description |
 |------|-------------|
-| **Landing Page** | Includes a map and information about Kerala, with navigation to language flashcardsa and featured location pages. |
+| **Index / Home Page** | Includes a map and information about Kerala, World Clock displaying User's Local Time and IST, and navigation to language flashcardsa and featured location pages. |
 | **Flashcards** | Learn Malayalam with interactive flashcards of the most commonly used words with example phrases. |
+
 | **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. |
+| **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. |
 | **Munnar** | Featured location page for the mountain town of Munnar including a map, weather data and information. |
 | **Kochi** | Featured location page for the port city including a map, weather data and information. |
-| **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. |
 
 
 ## Capstone Requirements Fulfilled
 
 | Requirement | Implementation |
 |-------------|----------------|
-| **Create a Node.js web server using Express.js** | & Host on Render |
-| **Custom API** | Create an API that implements HTTP requests for GET and POST. Data can be stored in a JSON file on the back-end |
-| **Use arrays, objects to store and retrieve information** |  Flashcard data stored in JSON Array of Objects. Shuffle / Random Selection Available. |
-| **Visualize data in a user-friendly way** | Flashcards, Weather Data and Topogrpahic Maps. |
-| **Responsive Design** | Mobile first design utilizing CSS flexbox. CSS grid layout with full size maps optimized for tablets and larger screens. |
-| **Persist important data to the user to local storage and make the stored data accessible in your app. (including after reload/refresh).**| Remember user preferences and progress on flashcards |
+| **Responsive Design** | Mobile first design utilizing CSS flexbox. Media query and CSS grid layout optimized for tablets and larger screens. |
+| **Create a Node.js web server using Express.js** | Server.JS and Package.JSON files |
+| **Custom API** | Create an API that implements HTTP requests for GET and POST (user can post their own flashcards to the data set). Data stored in a JSON on the backend (Flashcards.json).  |
+| **Use arrays, objects to store and retrieve information** |  Flashcard data stored in JSON Array of Objects with Shuffle mode, Previous, Next and Reset functionalities. |
+| **Display Data Based on Some External Factor**| Display Bilingual World Clock with Local and IST. Recalculate times every minute - Set Interval of 1000ms. |
+|**Validate Input**| Form for creating new cards and adding to the JSON file. |
 
 ## How to Download
 
-1. Instructions available soon. 
+1. **Clone the repository using GIT**
+   ```bash
+   git clone https://github.com/wslider/malayalam-explorer.git
+   ```
 
+2. **Navigate to the project directory**
+   ```bash
+   cd malayalam-explorer
+   ```
 
-## Features: 
+3. **Install dependencies**
+   ```bash
+   npm install
+   npm install express
+   npm install nodemon 
+   ```
+4. **NPM Start**
+
+5. **Open Browser `http://localhost/3003`**
+
  
-    Flashcards for Language Learning 
-    - JSON , JS , flashcards.html 
-    - start with 50 most common words (unique phrases)
-    - shuffle mode 
-    - malExampleTranslits?... use own malExampleTranslits or API callout to USPLASH  
+## Features for MVP: 
+- 2 Pages: Index.html and Flashcards.html 
+- Responsive Mobile First Design with Media Query for Larger Screens 
+- Flashcards with Next, Previous, Shuffle, Reset and Delete
+    - Flip to Reveal Translation 
+    - Start with 50 common words and phrases
+- Form to Create and Submit (POST) new flashcards to the data set. 
+- NodeJS and Express Server
+- Custom API with GET, POST and DELETE interacting with Flashcards.json 
+- World Clock Display 
+    - Local Time and IST (Indian Standard Time)
+    - Bilingual Greetings Displayed
+    - Updated every minute (60000ms)
 
-    - Stretch Goals: 
-        - remember progress 
-        - 300 cards total cards
-        - add audio to cards 
-
-    Featured Locations 
-    - Custom greeting with time, weather conditions (language toggle)
-    - weather (c - f toggle)
-    - static map obtained from Open Street Maps via Overpass 
-
-    Self hosted api : Node.JS + Express + Render 
-    - how to use it? 
-        - persist data? 
-        - user progress on flashcards? 
-        - user prefferences and settings? 
-        - malExampleTranslits and data for notecards .. earmark some to review again 
-
-    Persist Data in Local Storage:
-    - remember user progress on flashcards and settings 
+## Advanced Features: 
+- Expand Flashcard Data to include 300+ words and phrases
+- Add Playable Audio to Flashcards 
+- Featured Location Pages with Maps and Information 
+    - Trivandrum
+    - Munnar
+    - Kochi
+- Malayalam Movie Search using The Movie Database API
 
 
 
@@ -80,41 +94,28 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
                 "start": "node index.js",
                 "dev": "nodemon index.js" }
         - npm run dev
-        - Use Postman to visit http://localhost:3000 & http://localhost:3000/api. You should see the responses defined in index.js
+        - Use Postman to visit http://localhost:3003 & http://localhost:3003/api. You should see the responses defined in index.js
         - gitignore file 
             - node_modules/
             - .env
-    4. index.html 
-        - welcome message and language toggle
-        - nav bar and into content 
-        - with Kerala map
-        - world clock
-    5. flashcards.JSON (first 50)
-    6. Update flashcards.js  flashcards.html & css to display cards
-    7. trivandrum.html 
-        - overpass static map
-        - malayalam english toggle (or highlight to change language)
-    8. munnar.html 
-        - overpass static map
-        - malayalam english toggle (or highlight to change language)
-    9. add weather widget to location pages 
-        - weather : C - F toggle & language togglet (openMeteo Api)
-        - update custom greeting to include time of day and wx conditions
-    10. polish and add CSS styles
+    4. index.html & flashcards.html
+        - basic structure for features
+    5. Set up flashcard data in JSON - initial 10 - 50 cards for testing
+        - Add flashcards.json with initial Malayalam-English array/objects; include client-side load script.
+    6. Implement custom API endpoints
+        - Add Express routes for GET/POST /api/flashcards with fs module for JSON persistence.
+        - Build flashcard display component
+        - Add script.js logic to fetch/render cards via API, with flip animation and error fallback.
+    7. Add flashcard navigation controls
+        - Implement Next/Previous/Skip buttons and “click” to Flip with event listeners and array indexing.
+        - Integrate shuffle mode for flashcards
+        - Add shuffle() function, button toggle, and state to randomize deck order.
+    8. Create bilingual world clock on Index.html 
+        - Add JS for local/IST time display, setInterval updates, time-of-day greetings, and hover / toggle.
+    9. Polish CSS and Fine Tune Media Queries 
+    10. Add additional Flashcards.  
+    11. ... add additional stretch goals (commit each new feature). 
 
-    Additional Commits ... 
-
-    11. Add Audio to first 50 flashcards 
-        - mp3 of native speakers
-        - audio option on cards 
-    12. Notecard Review Feature 
-        - user marks some to review. 
-        - resets when user goes through all of them  
-    13. Add additional Flashcards .. ideally 300 total 
-    14. Add 3rd Location Page .. kochi.html
-        - overpass static map
-        - malayalam english toggle (or highlight to change language)
-    15. Achievment badges 
 
 # Site Map
 
@@ -122,38 +123,30 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 - **package.json**
 - **public/**
   - index.html
-  - trivandrum.html
-  - kochi.html
-  - munnar.html
   - flashcards.html
-  - badges.html
   - **css/**
     - reset.css
     - style.css
   - **js/**
     - script.js
+    - flashcards.js
   - **data/**
     - flashcards.json
-    - alphabet.json
-    - locations.json
-  - **malExampleTranslits/**
-    - kerala.png
-    - trivandrum.png
-    - kochi.png
-    - munnar.png
-    - logo.png
+  - **images/**
+    - kerala-map.png
   - **audio/**
     - 1.mp3
-    - 297.mp3
-  - **maps/**
-    - kerala.overpass
-    - trivandrum.overpass
-    - kochi.overpass
-    - munnar.overpass
-- **.gitignore**
+    - .... 
+    - 300.mp3
+- **.gitignore** 
+    - node modules
+    - env 
 
-## Delete Card event listener in flashcards.js 
 
+## AI USAGE - Grok 4 Assistance in Creating the Following ... 
+-  Delete Card event listener in flashcards.js 
+-  Post Card event listener in flashcards.js
+-  function updateKeralaTimeGreeting() in script.js 
 
 
 

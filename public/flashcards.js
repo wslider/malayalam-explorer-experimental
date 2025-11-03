@@ -3,7 +3,7 @@ let currentIndex = 0;
 let isFlipped = false; 
 let isShuffled = false; 
 
-// DOM elements (cached for efficiency)
+// DOM elements 
 const engCard = document.getElementById('engCardContent');
 const malCard = document.getElementById('malCardContent');
 
