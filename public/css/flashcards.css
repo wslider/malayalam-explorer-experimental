@@ -71,13 +71,41 @@
       width: 95vw
     }
 
+      .cardButtons > button {
+        font-size: 1.5rem;
+      }
+      
+      .form > input {
+        font-size: 1.25rem;
+      }
+      .form > button {
+        font-size: 1.5rem;
+      }
+
   @media only screen and (min-width: 600px) {
+    .topNav {
+      font-size: 1.5rem;
+    }
+    .cardContainer {
+      font-size: 1.4rem;
+    }
     .cardButtons {
       grid-area: cardButtons; 
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
     }
+      .cardButtons > button {
+        font-size: 1.5rem;
+      }
+
+      .form > input {
+        font-size: 1.25rem;
+      }
+      .form > button {
+        font-size: 1.5rem;
+      }
+
   }
 
     /* display is toggled in js for card content 
