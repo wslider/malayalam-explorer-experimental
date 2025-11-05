@@ -1,10 +1,13 @@
-document.getElementById("welcomeMsg").addEventListener("mouseout", function() {
-    this.textContent = "സ്വാഗതം";
+document.getElementById("infoGreetingText").addEventListener("mouseout", function() {
+  this.textContent = `Learn Malayalam ... The Language of Kerala`
 });
 
-document.getElementById("welcomeMsg").addEventListener("mouseover", function() {
-    this.textContent = "Welcome";
+document.getElementById("infoGreetingText").addEventListener("mouseover", function() {
+  this.textContent = `മലയാളം പഠിക്കൂ ... കേരളത്തിന്റെ ഭാഷ  (malayalam padikku... keralathinte bhasha)`
 });
+
+
+
 
 
 
