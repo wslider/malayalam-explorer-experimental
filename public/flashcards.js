@@ -123,51 +123,61 @@ document.getElementById('resetButton').addEventListener('click', () => {
 });
 
 // DELETE current card
-document.getElementById('deleteButton').addEventListener('click', async ()=>{
+document.getElementById('deleteButton').addEventListener('click', async () => {  
     if (flashcards.length === 0 || !flashcards[currentIndex]) {
         console.warn('Nothing to delete.');
-        return;}
+        return;
+    }
     const card = flashcards[currentIndex]; 
-    if (!confirm(`Delete "${card.english}" (${card.category})? This cannot be undone!`)){
+    if (!confirm(`Delete "${card.english}" (${card.category})? This cannot be undone!`)) {
         return; 
     }
+    
+    // Remove locally first (UI updates immediately)
+    const deletedIndex = currentIndex;  // Save for potential rollback
+    flashcards.splice(currentIndex, 1);
+    if (currentIndex >= flashcards.length) {
+        currentIndex = Math.max(0, flashcards.length - 1);  
+    }
+
     try {
+        let response = { ok: true };  //Default "success" for local-only
         if (card.id) {
-            const response = await fetch(`/api/flashcards/${card.id}`);
-            method = 'DELETE'; 
-        }
-        if (!response.ok) {
+            response = await fetch(`/api/flashcards/${card.id}`, {
+                method: 'DELETE',
+            });
+            if (!response.ok) {  // Now safe: Always defined
                 throw new Error(`DELETE failed: ${response.status}`);
             }
+            console.log(`API delete succeeded for card ${card.id}`); 
+        } else {
+            console.warn('No card ID—skipped API delete (local-only mode)');  
+        }
 
-        flashcards.splice(currentIndex, 1);
-
-        if (currentIndex >= flashcards.length) {
-            currentIndex = Math.max(0, flashcards.length - 1); }
-
+        // Success: Update UI
         isFlipped = false;
         engCard.style.display = 'block';
         malCard.style.display = 'none';
 
         if (flashcards.length > 0) {
             displayCard(); 
-        }
-        else {
+        } else {
             alert('All Cards deleted. Create new cards using the form.');
         }
-    }
-    catch (err) {
+    } catch (err) {
+        // Rollback: Reload to restore from source (re-adds if API failed)
         console.error('Delete failed:', err);
         alert('Failed to delete card. Check console for details.');
-        loadFlashcards(); 
+        loadFlashcards();  
+        currentIndex = Math.min(deletedIndex, flashcards.length - 1); 
     }
 });
+
 
 // New Card Form: POST to API, refresh list
 document.getElementById('newCardForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const newCard = {
-        id: Date.now(), // Simple ID gen
         category: document.getElementById('newCategory').value.trim(),
         english: document.getElementById('newEnglish').value.trim(),
         engExample: document.getElementById('newEngExample').value.trim(),
@@ -205,9 +215,12 @@ document.getElementById('newCardForm').addEventListener('submit', async (e) => {
             body: JSON.stringify(newCard)
         });
         if (!response.ok) throw new Error('POST failed');
-        loadFlashcards();  // Refresh list
+
+        const addedCard = await response.json();  // Server returns the full card w/ ID
+        loadFlashcards();  
         e.target.reset();
-        console.log('New card added:', newCard.english);
+        console.log('New card added:', addedCard.english, 'ID:', addedCard.id);
+
     } catch (err) {
         console.error('Form submission failed:', err);
         alert('Failed to add card. Check console.');

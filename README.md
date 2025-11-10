@@ -26,11 +26,13 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 | Requirement | Implementation |
 |-------------|----------------|
 | **Responsive Design** | Mobile first design utilizing CSS flexbox. Media query and CSS grid layout optimized for tablets and larger screens. |
-| **Create a Node.js web server using Express.js** | Server.JS and Package.JSON files |
-| **Custom API** | Create an API that implements HTTP requests for GET and POST (user can post their own flashcards to the data set). Data stored in a JSON on the backend (Flashcards.json).  |
+| **Create a Node.js web server using Express.js** | Server.JS and Package.JSON files. Use Express and ES Modules.|
+| **Custom API** | Create a CRD API that implements HTTP requests for GET, POST (user can post their own flashcards to the data set) and DELETE. Data stored in a JSON on the backend (Flashcards.json).  |
 | **Use arrays, objects to store and retrieve information** |  Flashcard data stored in JSON Array of Objects with Shuffle mode, Previous, Next and Reset functionalities. |
 | **Display Data Based on Some External Factor**| Display Bilingual World Clock with Local and IST. Recalculate times every minute - Set Interval of 1000ms. |
-|**Validate Input**| Form for creating new cards and adding to the JSON file. |
+|**Validate Form Input**| Form for creating new cards and adding to the JSON file. Input validated before user can POST a new flashcard.|
+
+
 
 ## How to Download
 
@@ -52,7 +54,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
    ```
 4. **NPM Start**
 
-5. **Open Browser `http://localhost/3003`**
+5. **Open Browser `http://localhost/3002`**
 
  
 ## Features for MVP: 
@@ -68,6 +70,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     - Local Time and IST (Indian Standard Time)
     - Bilingual Greetings Displayed
     - Updated every minute (60000ms)
+
 
 ## Advanced Features: 
 - Expand Flashcard Data to include 300+ words and phrases
@@ -93,7 +96,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
                 "start": "node index.js",
                 "dev": "nodemon index.js" }
         - npm run dev
-        - Use Postman to visit http://localhost:3003 & http://localhost:3003/api. You should see the responses defined in index.js
+        - Use Postman to visit http://localhost:3002 & http://localhost:3002/api. You should see the responses defined in index.js
         - gitignore file 
             - node_modules/
             - .env
