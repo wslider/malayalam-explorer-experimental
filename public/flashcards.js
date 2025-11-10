@@ -176,11 +176,28 @@ document.getElementById('newCardForm').addEventListener('submit', async (e) => {
         malExample: document.getElementById('newMalExample').value.trim(),
         malExampleTranslit: document.getElementById('newMalExampleTranslit').value.trim(),
     };
-    // Basic validation
+
+    
+    // Basic validation + Matches if first char Malayalam inputs is in Malayalam unicode range
+    const malayalamRegex = /[\u0D00-\u0D7F]/;   
+
     if (!newCard.category || !newCard.english || !newCard.malayalam) {
         alert('Please fill required fields: Category, English, Malayalam');
         return;
     }
+
+    // Check if first letter of Malayalam word (not translit) is in Malayalam Script
+    if (!malayalamRegex.test(newCard.malayalam.charAt(0))) {
+        alert('Malayalam word must start with a valid Malayalam script character');
+        return; 
+    }
+    //check if first letter of malayalam example phrase (not translit) is in Malayalam Script (skip if empty)
+    if (newCard.malExample && !malayalamRegex.test(newCard.malExample.charAt(0))) {  
+        alert('Malayalam example must start with a valid Malayalam script character');
+        return; 
+    }
+
+
     try {
         const response = await fetch('/api/flashcards', {
             method: 'POST',
