@@ -17,20 +17,22 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-//Routes
+//Routes for CRD API
 
 app.get('api/flashcards', (req, res) => {}); // GET all
 app.get('api/flashcards/:id', (req, res) => {}); // GET one
 app.post('api/flashcards', (req , res) => {}); // POST 
-app.put('api/flashcards/:id', (req , res) => {}); // PUT
 app.delete('api/flashcards/:id', (req, res) => {}); // DELETE 
 
 //start server
 
-app.listen(port, ()=> {console.log(`Server running on http://localhost:${port}`)}); 
+app.listen(port, ()=> {
+    console.log(`Server running on http://localhost:${port}`);
+    console.log("Press Ctrl+C to end this process.");
+}); 
 
 
-//CRUD API implementation 
+//API implementation 
 
 
 // read / write json 
@@ -92,75 +94,3 @@ app.delete('/api/flashcards/:id', (req, res) => {
         res.status(500).json({ error: 'Server error' });
     }
 });
-
-
-
-
-
-/* 
-
-app.delete('/api/flashcards/:id', (req, res) => {
-    const data = readData(); 
-    const filtered = data.filter(c => c.id !== parseInt(req.params.id)); 
-    if (filtered.length === data.length) return res.status(404).json({error: 'Not Found'});
-    writeData(filtered); 
-    res.status(204).send();  
-});
-
-
-
-
- 
-
-// 
-app.post("/api/flashcards", (req, res) => {
-  const cards = read();
-
-  // Auto-increment: highest existing id + 1
-  const maxId = data.reduce((m, c) => (c.id > m ? c.id : m), 0);
-  const newId = maxId + 1;
-
-  const newCard = { id: newId, ...req.body };
-  cards.push(newCard);
-  write(cards);
-
-  res.status(201).json(newCard);   // <-- client receives the real id
-});
-
-
-
-
-
-
-
-function getAllFlashcards() {
-    return flashcards;
-}
-
-app.get("/api/flashcards", (request, response) => {
-    const characters = getAllFlashcards();
-    response.status(200).json({
-        data: flashcards,
-    });
-});
-
-app.get("/api/flashcards/:id", (request, response) => {
-    const flashcard = getFlashcardById(request.params.id);
-    
-    if (!flashcard) {
-        return response.status(404).json({
-            data: "Flashcard does not exist with that id",
-        });
-    }
-
-    response.status(200).json({
-        data: flashcard,
-    });
-
-});
-
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-    console.log("Press Ctrl+C to end this process.");
-});*/

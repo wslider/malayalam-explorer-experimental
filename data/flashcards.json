@@ -167,7 +167,7 @@
     "malayalam": "നാല്",
     "transliteration": "naal",
     "malExample": "ഞാൻ നാല് പഴങ്ങൾ വാങ്ങി.",
-    "malExampleTranslit": "(nyaan naal pazhaṅṅal vaaṅṅi.)"
+    "malExampleTranslit": "(nyaan naal pazhangal vaangi.)"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "malayalam": "അഞ്ച്",
     "transliteration": "anychu",
     "malExample": "അഞ്ച് ജനങ്ങൾ ഇവിടെയാണ്.",
-    "malExampleTranslit": "(anychu janaṅṅal iviteyaanu.)"
+    "malExampleTranslit": "(anychu janangal iviteyaanu.)"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "malayalam": "ആറ്",
     "transliteration": "aaru",
     "malExample": "ഞാൻ ആറ് നക്ഷത്രങ്ങൾ കാണുന്നു.",
-    "malExampleTranslit": "(nyaan aaru nakshatraṅṅal kaanunnu.)"
+    "malExampleTranslit": "(nyaan aaru nakshatrangal kaanunnu.)"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "malayalam": "ഏഴ്",
     "transliteration": "eezhu",
     "malExample": "ഒരു ആഴ്ചയിൽ ഏഴ് ദിവസങ്ങൾ.",
-    "malExampleTranslit": "(oru aazhchayil eezhu divasaṅṅal.)"
+    "malExampleTranslit": "(oru aazhchayil eezhu divasangal.)"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "malayalam": "എട്ട്",
     "transliteration": "ettu",
     "malExample": "എനിക്ക് എട്ട് പുസ്തകങ്ങൾ ഉണ്ട്.",
-    "malExampleTranslit": "(enikku ettu pustakaṅṅal untu.)"
+    "malExampleTranslit": "(enikku ettu pustakangal untu.)"
   },
   {
     "id": 22,
@@ -317,7 +317,7 @@
     "malayalam": "പൂച്ച",
     "transliteration": "puuchcha",
     "malExample": "പൂച്ച ഉറങ്ങുന്നു.",
-    "malExampleTranslit": "(puuchcha uraṅṅunnu.)"
+    "malExampleTranslit": "(puuchcha urangunnu.)"
   },
   {
     "id": 33,
@@ -357,7 +357,7 @@
     "malayalam": "പൂവ്",
     "transliteration": "puuv",
     "malExample": "പൂവ് മനോഹരമാണ്.",
-    "malExampleTranslit": "(puuv manooharamaanu.)"
+    "malExampleTranslit": "(puuv manoharamaanu.)"
   },
   {
     "id": 37,
@@ -498,5 +498,1005 @@
     "transliteration": "pustakam",
     "malExample": "ഞാൻ ഒരു പുസ്തകം വായിക്കുന്നു.",
     "malExampleTranslit": "(nyaan oru pustakam vaayikkunnu.)"
+  },
+  {
+    "id": 51,
+    "category": "Nouns",
+    "english": "Paper",
+    "engExample": "I write on paper.",
+    "malayalam": "പേപ്പർ",
+    "transliteration": "pepper",
+    "malExample": "ഞാൻ പേപ്പറിൽ എഴുതുന്നു.",
+    "malExampleTranslit": "(nyaan pepperil ezhuthunnu.)"
+  },
+  {
+    "id": 52,
+    "category": "Nouns",
+    "english": "Pen",
+    "engExample": "I use a pen.",
+    "malayalam": "പേന",
+    "transliteration": "pena",
+    "malExample": "ഞാൻ ഒരു പേന ഉപയോഗിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan oru pena upayogikkunnu.)"
+  },
+  {
+    "id": 53,
+    "category": "Nouns",
+    "english": "Money",
+    "engExample": "I need money.",
+    "malayalam": "പണം",
+    "transliteration": "panam",
+    "malExample": "എനിക്ക് പണം വേണം.",
+    "malExampleTranslit": "(enikku panam venam.)"
+  },
+  {
+    "id": 54,
+    "category": "Nouns",
+    "english": "Shop",
+    "engExample": "The shop is nearby.",
+    "malayalam": "കട",
+    "transliteration": "kada",
+    "malExample": "കട അടുത്താണ്.",
+    "malExampleTranslit": "(kada aduthaanu.)"
+  },
+  {
+    "id": 55,
+    "category": "Nouns",
+    "english": "Car",
+    "engExample": "The car is fast.",
+    "malayalam": "കാർ",
+    "transliteration": "kaar",
+    "malExample": "കാർ വേഗതയുള്ളതാണ്.",
+    "malExampleTranslit": "(kaar vegathayullathaanu.)"
+  },
+  {
+    "id": 56,
+    "category": "Nouns",
+    "english": "Bus",
+    "engExample": "I take the bus.",
+    "malayalam": "ബസ്",
+    "transliteration": "bas",
+    "malExample": "ഞാൻ ബസ്സിൽ കയറുന്നു.",
+    "malExampleTranslit": "(nyaan bassil kayarunnu.)"
+  },
+  {
+    "id": 57,
+    "category": "Nouns",
+    "english": "Train",
+    "engExample": "The train is late.",
+    "malayalam": "ട്രെയിൻ",
+    "transliteration": "treyin",
+    "malExample": "ട്രെയിൻ വൈകി.",
+    "malExampleTranslit": "(treyin vaiki.)"
+  },
+  {
+    "id": 58,
+    "category": "Nouns",
+    "english": "Rice",
+    "engExample": "I eat rice daily.",
+    "malayalam": "അരി",
+    "transliteration": "ari",
+    "malExample": "ഞാൻ ദിവസവും അരി തിന്നുന്നു.",
+    "malExampleTranslit": "(nyaan divasavum ari tinnunnu.)"
+  },
+  {
+    "id": 59,
+    "category": "Nouns",
+    "english": "Vegetable",
+    "engExample": "I buy vegetables.",
+    "malayalam": "പച്ചക്കറി",
+    "transliteration": "pachakkari",
+    "malExample": "ഞാൻ പച്ചക്കറി വാങ്ങുന്നു.",
+    "malExampleTranslit": "(nyaan pachakkari vaangunnu.)"
+  },
+  {
+    "id": 60,
+    "category": "Nouns",
+    "english": "Fruit",
+    "engExample": "The fruit is sweet.",
+    "malayalam": "പഴം",
+    "transliteration": "pazham",
+    "malExample": "പഴം മധുരമാണ്.",
+    "malExampleTranslit": "(pazham madhuramaanu.)"
+  },
+  {
+    "id": 61,
+    "category": "Nouns",
+    "english": "Milk",
+    "engExample": "I drink milk.",
+    "malayalam": "പാൽ",
+    "transliteration": "paal",
+    "malExample": "ഞാൻ പാൽ കുടിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan paal kutikkunnu.)"
+  },
+  {
+    "id": 62,
+    "category": "Nouns",
+    "english": "Tea",
+    "engExample": "Tea is hot.",
+    "malayalam": "ചായ",
+    "transliteration": "chaaya",
+    "malExample": "ചായ ചൂടാണ്.",
+    "malExampleTranslit": "(chaaya choodaanu.)"
+  },
+  {
+    "id": 63,
+    "category": "Nouns",
+    "english": "Coffee",
+    "engExample": "I like coffee.",
+    "malayalam": "കാപ്പി",
+    "transliteration": "kaappi",
+    "malExample": "എനിക്ക് കാപ്പി ഇഷ്ടമാണ്.",
+    "malExampleTranslit": "(enikku kaappi ishtamaanu.)"
+  },
+  {
+    "id": 64,
+    "category": "Nouns",
+    "english": "Name",
+    "engExample": "What is your name?",
+    "malayalam": "പേര്",
+    "transliteration": "peer",
+    "malExample": "നിന്റെ പേര് എന്താണ്?",
+    "malExampleTranslit": "(ninnte peer entaanu?)"
+  },
+  {
+    "id": 65,
+    "category": "Nouns",
+    "english": "Person",
+    "engExample": "The person is kind.",
+    "malayalam": "വ്യക്തി",
+    "transliteration": "vyakti",
+    "malExample": "വ്യക്തി ദയാലുവാണ്.",
+    "malExampleTranslit": "(vyakti dayaaluvaanu.)"
+  },
+  {
+    "id": 66,
+    "category": "Nouns",
+    "english": "Hand",
+    "engExample": "My hand is strong.",
+    "malayalam": "കൈ",
+    "transliteration": "kai",
+    "malExample": "എന്റെ കൈ ശക്തമാണ്.",
+    "malExampleTranslit": "(ente kai shaktamaanu.)"
+  },
+  {
+    "id": 67,
+    "category": "Nouns",
+    "english": "Foot",
+    "engExample": "My foot hurts.",
+    "malayalam": "കാൽ",
+    "transliteration": "kaal",
+    "malExample": "എന്റെ കാൽ വേദനിക്കുന്നു.",
+    "malExampleTranslit": "(ente kaal vedanikkunnu.)"
+  },
+  {
+    "id": 68,
+    "category": "Nouns",
+    "english": "Head",
+    "engExample": "My head is heavy.",
+    "malayalam": "തല",
+    "transliteration": "tala",
+    "malExample": "എന്റെ തല ഭാരമാണ്.",
+    "malExampleTranslit": "(ente tala bhaaramaanu.)"
+  },
+  {
+    "id": 69,
+    "category": "Nouns",
+    "english": "Eye",
+    "engExample": "My eye sees well.",
+    "malayalam": "കണ്ണ്",
+    "transliteration": "kannu",
+    "malExample": "എന്റെ കണ്ണ് നന്നായി കാണുന്നു.",
+    "malExampleTranslit": "(ente kannu nannaayi kaanunnu.)"
+  },
+  {
+    "id": 70,
+    "category": "Nouns",
+    "english": "Ear",
+    "engExample": "My ear hears clearly.",
+    "malayalam": "ചെവി",
+    "transliteration": "chevi",
+    "malExample": "എന്റെ ചെവി വ്യക്തമായി കേൾക്കുന്നു.",
+    "malExampleTranslit": "(ente chevi vyaktamaayi kelkkunnu.)"
+  },
+  {
+    "id": 71,
+    "category": "Nouns",
+    "english": "Mouth",
+    "engExample": "My mouth speaks loudly.",
+    "malayalam": "വായ",
+    "transliteration": "vaaya",
+    "malExample": "എന്റെ വായ ഉച്ചത്തിൽ പറയുന്നു.",
+    "malExampleTranslit": "(ente vaaya ucchathil parayunnu.)"
+  },
+  {
+    "id": 72,
+    "category": "Nouns",
+    "english": "Heart",
+    "engExample": "My heart is happy.",
+    "malayalam": "ഹൃദയം",
+    "transliteration": "hridayam",
+    "malExample": "എന്റെ ഹൃദയം സന്തോഷമാണ്.",
+    "malExampleTranslit": "(ente hridayam santhoshamaanu.)"
+  },
+  {
+    "id": 73,
+    "category": "Nouns",
+    "english": "Love",
+    "engExample": "I feel love.",
+    "malayalam": "സ്നേഹം",
+    "transliteration": "sneham",
+    "malExample": "ഞാൻ സ്നേഹം അനുഭവിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan sneham anubhavikkunnu.)"
+  },
+  {
+    "id": 74,
+    "category": "Nouns",
+    "english": "World",
+    "engExample": "The world is big.",
+    "malayalam": "ലോകം",
+    "transliteration": "lokam",
+    "malExample": "ലോകം വലുതാണ്.",
+    "malExampleTranslit": "(lokam valuthaanu.)"
+  },
+  {
+    "id": 75,
+    "category": "Nouns",
+    "english": "Light",
+    "engExample": "The light is bright.",
+    "malayalam": "വെളിച്ചം",
+    "transliteration": "velicham",
+    "malExample": "വെളിച്ചം പ്രകാശമാണ്.",
+    "malExampleTranslit": "(velicham prakaashamaanu.)"
+  },
+  {
+    "id": 76,
+    "category": "Nouns",
+    "english": "Night",
+    "engExample": "The night is calm.",
+    "malayalam": "രാത്രി",
+    "transliteration": "raatri",
+    "malExample": "രാത്രി ശാന്തമാണ്.",
+    "malExampleTranslit": "(raatri shaantamaanu.)"
+  },
+  {
+    "id": 77,
+    "category": "Nouns",
+    "english": "Morning",
+    "engExample": "Morning is beautiful.",
+    "malayalam": "രാവിലെ",
+    "transliteration": "raavile",
+    "malExample": "രാവിലെ മനോഹരമാണ്.",
+    "malExampleTranslit": "(raavile manoharamaanu.)"
+  },
+  {
+    "id": 78,
+    "category": "Nouns",
+    "english": "Evening",
+    "engExample": "I walk in the evening.",
+    "malayalam": "വൈകുന്നേരം",
+    "transliteration": "vaikunneram",
+    "malExample": "ഞാൻ വൈകുന്നേരം നടക്കുന്നു.",
+    "malExampleTranslit": "(nyaan vaikunneram nadakkunnu.)"
+  },
+  {
+    "id": 79,
+    "category": "Nouns",
+    "english": "Rain",
+    "engExample": "The rain is heavy.",
+    "malayalam": "മഴ",
+    "transliteration": "mazha",
+    "malExample": "മഴ ശക്തമാണ്.",
+    "malExampleTranslit": "(mazha shaktamaanu.)"
+  },
+  {
+    "id": 80,
+    "category": "Nouns",
+    "english": "Wind",
+    "engExample": "The wind is strong.",
+    "malayalam": "കാറ്റ്",
+    "transliteration": "kaattu",
+    "malExample": "കാറ്റ് ശക്തമാണ്.",
+    "malExampleTranslit": "(kaattu shaktamaanu.)"
+  },
+  {
+    "id": 81,
+    "category": "Nouns",
+    "english": "Fire",
+    "engExample": "Fire is dangerous.",
+    "malayalam": "തീ",
+    "transliteration": "thee",
+    "malExample": "തീ അപകടകരമാണ്.",
+    "malExampleTranslit": "(thee apakadakaramaanu.)"
+  },
+  {
+    "id": 82,
+    "category": "Pronouns",
+    "english": "I",
+    "engExample": "I am happy.",
+    "malayalam": "ഞാൻ",
+    "transliteration": "nyaan",
+    "malExample": "ഞാൻ സന്തോഷമാണ്.",
+    "malExampleTranslit": "(nyaan santhoshamaanu.)"
+  },
+  {
+    "id": 83,
+    "category": "Pronouns",
+    "english": "We",
+    "engExample": "We go to the market.",
+    "malayalam": "നമ്മൾ",
+    "transliteration": "nammal",
+    "malExample": "നമ്മൾ ചന്തയിൽ പോകുന്നു.",
+    "malExampleTranslit": "(nammal chantayil pookunnu.)"
+  },
+  {
+    "id": 84,
+    "category": "Pronouns",
+    "english": "You (informal)",
+    "engExample": "You are my friend.",
+    "malayalam": "നീ",
+    "transliteration": "nee",
+    "malExample": "നീ എന്റെ സുഹൃത്താണ്.",
+    "malExampleTranslit": "(nee ente suhrittaanu.)"
+  },
+  {
+    "id": 85,
+    "category": "Pronouns",
+    "english": "You (formal)",
+    "engExample": "You are welcome.",
+    "malayalam": "നിങ്ങൾ",
+    "transliteration": "ningal",
+    "malExample": "നിങ്ങൾ സ്വാഗതം ചെയ്യപ്പെടുന്നു.",
+    "malExampleTranslit": "(ningal swaagatham cheyyappedunnu.)"
+  },
+  {
+    "id": 86,
+    "category": "Pronouns",
+    "english": "He",
+    "engExample": "He reads a book.",
+    "malayalam": "അവൻ",
+    "transliteration": "avan",
+    "malExample": "അവൻ ഒരു പുസ്തകം വായിക്കുന്നു.",
+    "malExampleTranslit": "(avan oru pustakam vaayikkunnu.)"
+  },
+  {
+    "id": 87,
+    "category": "Pronouns",
+    "english": "She",
+    "engExample": "She cooks well.",
+    "malayalam": "അവൾ",
+    "transliteration": "aval",
+    "malExample": "അവൾ നന്നായി പാചകം ചെയ്യുന്നു.",
+    "malExampleTranslit": "(aval nannaayi paachakam cheyyunnu.)"
+  },
+  {
+    "id": 88,
+    "category": "Pronouns",
+    "english": "It",
+    "engExample": "It is a dog.",
+    "malayalam": "അത്",
+    "transliteration": "athu",
+    "malExample": "അത് ഒരു നായാണ്.",
+    "malExampleTranslit": "(athu oru naayaanu.)"
+  },
+  {
+    "id": 89,
+    "category": "Pronouns",
+    "english": "They (human)",
+    "engExample": "They are happy.",
+    "malayalam": "അവർ",
+    "transliteration": "avar",
+    "malExample": "അവർ സന്തോഷമാണ്.",
+    "malExampleTranslit": "(avar santhoshamaanu.)"
+  },
+  {
+    "id": 90,
+    "category": "Pronouns",
+    "english": "They (non-human)",
+    "engExample": "They are trees.",
+    "malayalam": "അവ",
+    "transliteration": "ava",
+    "malExample": "അവ മരങ്ങളാണ്.",
+    "malExampleTranslit": "(ava marangalaanu.)"
+  },
+  {
+    "id": 91,
+    "category": "Pronouns",
+    "english": "My",
+    "engExample": "My house is big.",
+    "malayalam": "എന്റെ",
+    "transliteration": "ente",
+    "malExample": "എന്റെ വീട് വലുതാണ്.",
+    "malExampleTranslit": "(ente viitu valuthaanu.)"
+  },
+  {
+    "id": 92,
+    "category": "Pronouns",
+    "english": "Our",
+    "engExample": "Our family is here.",
+    "malayalam": "നമ്മുടെ",
+    "transliteration": "nammude",
+    "malExample": "നമ്മുടെ കുടുംബം ഇവിടെയാണ്.",
+    "malExampleTranslit": "(nammude kutumbam iviteyaanu.)"
+  },
+  {
+    "id": 93,
+    "category": "Pronouns",
+    "english": "Your (informal)",
+    "engExample": "Your book is new.",
+    "malayalam": "നിന്റെ",
+    "transliteration": "ninnte",
+    "malExample": "നിന്റെ പുസ്തകം പുതിയതാണ്.",
+    "malExampleTranslit": "(ninnte pustakam puthiyathaanu.)"
+  },
+  {
+    "id": 94,
+    "category": "Pronouns",
+    "english": "Your (formal)",
+    "engExample": "Your work is good.",
+    "malayalam": "നിങ്ങളുടെ",
+    "transliteration": "ningalude",
+    "malExample": "നിങ്ങളുടെ ജോലി നല്ലതാണ്.",
+    "malExampleTranslit": "(ningalude jooli nallathaanu.)"
+  },
+  {
+    "id": 95,
+    "category": "Pronouns",
+    "english": "His",
+    "engExample": "His car is fast.",
+    "malayalam": "അവന്റെ",
+    "transliteration": "avante",
+    "malExample": "അവന്റെ കാർ വേഗതയുള്ളതാണ്.",
+    "malExampleTranslit": "(avante kaar vegathayullathaanu.)"
+  },
+  {
+    "id": 96,
+    "category": "Pronouns",
+    "english": "Her",
+    "engExample": "Her dress is beautiful.",
+    "malayalam": "അവളുടെ",
+    "transliteration": "avalude",
+    "malExample": "അവളുടെ വസ്ത്രം മനോഹരമാണ്.",
+    "malExampleTranslit": "(avalude vasthram manoharamaanu.)"
+  },
+  {
+    "id": 97,
+    "category": "Pronouns",
+    "english": "Its",
+    "engExample": "Its tail is long.",
+    "malayalam": "അതിന്റെ",
+    "transliteration": "athinte",
+    "malExample": "അതിന്റെ വാൽ നീണ്ടതാണ്.",
+    "malExampleTranslit": "(athinte vaal niintathaanu.)"
+  },
+  {
+    "id": 98,
+    "category": "Pronouns",
+    "english": "Their",
+    "engExample": "Their house is nearby.",
+    "malayalam": "അവരുടെ",
+    "transliteration": "avarude",
+    "malExample": "അവരുടെ വീട് അടുത്താണ്.",
+    "malExampleTranslit": "(avarude viitu aduthaanu.)"
+  },
+  {
+    "id": 99,
+    "category": "Pronouns",
+    "english": "This",
+    "engExample": "This is my book.",
+    "malayalam": "ഇത്",
+    "transliteration": "ithu",
+    "malExample": "ഇത് എന്റെ പുസ്തകമാണ്.",
+    "malExampleTranslit": "(ithu ente pustakamaanu.)"
+  },
+  {
+    "id": 100,
+    "category": "Pronouns",
+    "english": "That",
+    "engExample": "That is a tree.",
+    "malayalam": "അത്",
+    "transliteration": "athu",
+    "malExample": "അത് ഒരു മരമാണ്.",
+    "malExampleTranslit": "(athu oru maramaanu.)"
+  },
+  {
+    "id": 101,
+    "category": "Pronouns",
+    "english": "Self",
+    "engExample": "I did it myself.",
+    "malayalam": "സ്വയം",
+    "transliteration": "svayam",
+    "malExample": "ഞാൻ അത് സ്വയം ചെയ്തു.",
+    "malExampleTranslit": "(nyaan athu svayam cheythu.)"
+  },
+  {
+    "id": 102,
+    "category": "Verbs",
+    "english": "Go",
+    "engExample": "I go to the market.",
+    "malayalam": "പോകുന്നു",
+    "transliteration": "pookunnu",
+    "malExample": "ഞാൻ ചന്തയിൽ പോകുന്നു.",
+    "malExampleTranslit": "(nyaan chantayil pookunnu.)"
+  },
+  {
+    "id": 103,
+    "category": "Verbs",
+    "english": "Go (Prog)",
+    "engExample": "I am going to school now.",
+    "malayalam": "പോകുകയാണ്",
+    "transliteration": "pookukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ വിദ്യാലയത്തിലേക്ക് പോകുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol vidyaalayathilekku pookukayaanu.)"
+  },
+  {
+    "id": 104,
+    "category": "Verbs",
+    "english": "Go (Past)",
+    "engExample": "I went to Kochi yesterday.",
+    "malayalam": "പോയി",
+    "transliteration": "poyi",
+    "malExample": "ഞാൻ ഇന്നലെ കൊച്ചിയിൽ പോയി.",
+    "malExampleTranslit": "(nyaan innale kochiyil poyi.)"
+  },
+  {
+    "id": 105,
+    "category": "Verbs",
+    "english": "Go (Future)",
+    "engExample": "I will go to the city tomorrow.",
+    "malayalam": "പോകും",
+    "transliteration": "pookum",
+    "malExample": "ഞാൻ നാളെ നഗരത്തിലേക്ക് പോകും.",
+    "malExampleTranslit": "(nyaan naale nagaratthilekku pookum.)"
+  },
+  {
+    "id": 106,
+    "category": "Verbs",
+    "english": "Come",
+    "engExample": "I come to the house daily.",
+    "malayalam": "വരുന്നു",
+    "transliteration": "varunnu",
+    "malExample": "ഞാൻ ദിവസവും വീട്ടിലേക്ക് വരുന്നു.",
+    "malExampleTranslit": "(nyaan divasavum viittilekku varunnu.)"
+  },
+  {
+    "id": 107,
+    "category": "Verbs",
+    "english": "Come (Prog)",
+    "engExample": "I am coming to the shop now.",
+    "malayalam": "വരുകയാണ്",
+    "transliteration": "varukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ കടയിലേക്ക് വരുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol kadayilekku varukayaanu.)"
+  },
+  {
+    "id": 108,
+    "category": "Verbs",
+    "english": "Come (Past)",
+    "engExample": "I came to the market.",
+    "malayalam": "വന്നു",
+    "transliteration": "vannu",
+    "malExample": "ഞാൻ ചന്തയിലേക്ക് വന്നു.",
+    "malExampleTranslit": "(nyaan chantayilekku vannu.)"
+  },
+  {
+    "id": 109,
+    "category": "Verbs",
+    "english": "Come (Future)",
+    "engExample": "I will come tomorrow.",
+    "malayalam": "വരും",
+    "transliteration": "varum",
+    "malExample": "ഞാൻ നാളെ വരും.",
+    "malExampleTranslit": "(nyaan naale varum.)"
+  },
+  {
+    "id": 110,
+    "category": "Verbs",
+    "english": "Eat",
+    "engExample": "I eat rice daily.",
+    "malayalam": "തിന്നുന്നു",
+    "transliteration": "tinnunnu",
+    "malExample": "ഞാൻ ദിവസവും അരി തിന്നുന്നു.",
+    "malExampleTranslit": "(nyaan divasavum ari tinnunnu.)"
+  },
+  {
+    "id": 111,
+    "category": "Verbs",
+    "english": "Eat (Prog)",
+    "engExample": "I am eating fruit now.",
+    "malayalam": "തിന്നുകയാണ്",
+    "transliteration": "tinnukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ പഴം തിന്നുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol pazham tinnukayaanu.)"
+  },
+  {
+    "id": 112,
+    "category": "Verbs",
+    "english": "Eat (Past)",
+    "engExample": "I ate fish yesterday.",
+    "malayalam": "തിന്നു",
+    "transliteration": "tinnu",
+    "malExample": "ഞാൻ ഇന്നലെ മീൻ തിന്നു.",
+    "malExampleTranslit": "(nyaan innale miin tinnu.)"
+  },
+  {
+    "id": 113,
+    "category": "Verbs",
+    "english": "Eat (Future)",
+    "engExample": "I will eat vegetables.",
+    "malayalam": "തിന്നും",
+    "transliteration": "tinnum",
+    "malExample": "ഞാൻ പച്ചക്കറി തിന്നും.",
+    "malExampleTranslit": "(nyaan pachakkari tinnum.)"
+  },
+  {
+    "id": 114,
+    "category": "Verbs",
+    "english": "Drink",
+    "engExample": "I drink tea now.",
+    "malayalam": "കുടിക്കുന്നു",
+    "transliteration": "kutikkunnu",
+    "malExample": "ഞാൻ ഇപ്പോൾ ചായ കുടിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan ippol chaaya kutikkunnu.)"
+  },
+  {
+    "id": 115,
+    "category": "Verbs",
+    "english": "Drink (Prog)",
+    "engExample": "I am drinking water now.",
+    "malayalam": "കുടിക്കുകയാണ്",
+    "transliteration": "kutikkukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ വെള്ളം കുടിക്കുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol vellam kutikkukayaanu.)"
+  },
+  {
+    "id": 116,
+    "category": "Verbs",
+    "english": "Drink (Past)",
+    "engExample": "I drank milk.",
+    "malayalam": "കുടിച്ചു",
+    "transliteration": "kuticchu",
+    "malExample": "ഞാൻ പാൽ കുടിച്ചു.",
+    "malExampleTranslit": "(nyaan paal kuticchu.)"
+  },
+  {
+    "id": 117,
+    "category": "Verbs",
+    "english": "Drink (Future)",
+    "engExample": "I will drink coffee.",
+    "malayalam": "കുടിക്കും",
+    "transliteration": "kutikkum",
+    "malExample": "ഞാൻ കാപ്പി കുടിക്കും.",
+    "malExampleTranslit": "(nyaan kaappi kutikkum.)"
+  },
+  {
+    "id": 118,
+    "category": "Verbs",
+    "english": "See",
+    "engExample": "I see the sea.",
+    "malayalam": "കാണുന്നു",
+    "transliteration": "kaanunnu",
+    "malExample": "ഞാൻ കടൽ കാണുന്നു.",
+    "malExampleTranslit": "(nyaan katal kaanunnu.)"
+  },
+  {
+    "id": 119,
+    "category": "Verbs",
+    "english": "See (Prog)",
+    "engExample": "I am seeing a bird now.",
+    "malayalam": "കാണുകയാണ്",
+    "transliteration": "kaanukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ ഒരു പക്ഷി കാണുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol oru pakshi kaanukayaanu.)"
+  },
+  {
+    "id": 120,
+    "category": "Verbs",
+    "english": "See (Past)",
+    "engExample": "I saw a star.",
+    "malayalam": "കണ്ടു",
+    "transliteration": "kandu",
+    "malExample": "ഞാൻ ഒരു നക്ഷത്രം കണ്ടു.",
+    "malExampleTranslit": "(nyaan oru nakshatram kandu.)"
+  },
+  {
+    "id": 121,
+    "category": "Verbs",
+    "english": "See (Future)",
+    "engExample": "I will see the moon.",
+    "malayalam": "കാണും",
+    "transliteration": "kaanum",
+    "malExample": "ഞാൻ ചന്ദ്രൻ കാണും.",
+    "malExampleTranslit": "(nyaan chandran kaanum.)"
+  },
+  {
+    "id": 122,
+    "category": "Verbs",
+    "english": "Speak",
+    "engExample": "I speak Malayalam.",
+    "malayalam": "പറയുന്നു",
+    "transliteration": "parayunnu",
+    "malExample": "ഞാൻ മലയാളം പറയുന്നു.",
+    "malExampleTranslit": "(nyaan malayalam parayunnu.)"
+  },
+  {
+    "id": 123,
+    "category": "Verbs",
+    "english": "Speak (Prog)",
+    "engExample": "I am speaking to a friend.",
+    "malayalam": "പറയുകയാണ്",
+    "transliteration": "parayukayaanu",
+    "malExample": "ഞാൻ ഒരു സുഹൃത്തിനോട് പറയുകയാണ്.",
+    "malExampleTranslit": "(nyaan oru suhrithinootu parayukayaanu.)"
+  },
+  {
+    "id": 124,
+    "category": "Verbs",
+    "english": "Speak (Past)",
+    "engExample": "I spoke English.",
+    "malayalam": "പറഞ്ഞു",
+    "transliteration": "paranju",
+    "malExample": "ഞാൻ ഇംഗ്ലീഷ് പറഞ്ഞു.",
+    "malExampleTranslit": "(nyaan english paranju.)"
+  },
+  {
+    "id": 125,
+    "category": "Verbs",
+    "english": "Speak (Future)",
+    "engExample": "I will speak at school.",
+    "malayalam": "പറയും",
+    "transliteration": "parayum",
+    "malExample": "ഞാൻ വിദ്യാലയത്തിൽ പറയും.",
+    "malExampleTranslit": "(nyaan vidyaalayathil parayum.)"
+  },
+  {
+    "id": 126,
+    "category": "Verbs",
+    "english": "Buy",
+    "engExample": "I buy vegetables.",
+    "malayalam": "വാങ്ങുന്നു",
+    "transliteration": "vaangunnu",
+    "malExample": "ഞാൻ പച്ചക്കറി വാങ്ങുന്നു.",
+    "malExampleTranslit": "(nyaan pachakkari vaangunnu.)"
+  },
+  {
+    "id": 127,
+    "category": "Verbs",
+    "english": "Buy (Prog)",
+    "engExample": "I am buying a book now.",
+    "malayalam": "വാങ്ങുകയാണ്",
+    "transliteration": "vaangukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ ഒരു പുസ്തകം വാങ്ങുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol oru pustakam vaangukayaanu.)"
+  },
+  {
+    "id": 128,
+    "category": "Verbs",
+    "english": "Buy (Past)",
+    "engExample": "I bought a pen.",
+    "malayalam": "വാങ്ങി",
+    "transliteration": "vaangi",
+    "malExample": "ഞാൻ ഒരു പേന വാങ്ങി.",
+    "malExampleTranslit": "(nyaan oru pena vaangi.)"
+  },
+  {
+    "id": 129,
+    "category": "Verbs",
+    "english": "Buy (Future)",
+    "engExample": "I will buy fruit.",
+    "malayalam": "വാങ്ങും",
+    "transliteration": "vaangum",
+    "malExample": "ഞാൻ പഴം വാങ്ങും.",
+    "malExampleTranslit": "(nyaan pazham vaangum.)"
+  },
+  {
+    "id": 130,
+    "category": "Verbs",
+    "english": "Sell",
+    "engExample": "He sells fish.",
+    "malayalam": "വിൽക്കുന്നു",
+    "transliteration": "vilkkunnu",
+    "malExample": "അവൻ മീൻ വിൽക്കുന്നു.",
+    "malExampleTranslit": "(avan miin vilkkunnu.)"
+  },
+  {
+    "id": 131,
+    "category": "Verbs",
+    "english": "Sell (Prog)",
+    "engExample": "He is selling vegetables now.",
+    "malayalam": "വിൽക്കുകയാണ്",
+    "transliteration": "vilkkukayaanu",
+    "malExample": "അവൻ ഇപ്പോൾ പച്ചക്കറി വിൽക്കുകയാണ്.",
+    "malExampleTranslit": "(avan ippol pachakkari vilkkukayaanu.)"
+  },
+  {
+    "id": 132,
+    "category": "Verbs",
+    "english": "Sell (Past)",
+    "engExample": "He sold fruit.",
+    "malayalam": "വിറ്റു",
+    "transliteration": "vittu",
+    "malExample": "അവൻ പഴം വിറ്റു.",
+    "malExampleTranslit": "(avan pazham vittu.)"
+  },
+  {
+    "id": 133,
+    "category": "Verbs",
+    "english": "Sell (Future)",
+    "engExample": "He will sell books.",
+    "malayalam": "വിൽക്കും",
+    "transliteration": "vilkkum",
+    "malExample": "അവൻ പുസ്തകങ്ങൾ വിൽക്കും.",
+    "malExampleTranslit": "(avan pustakangal vilkkum.)"
+  },
+  {
+    "id": 134,
+    "category": "Verbs",
+    "english": "Give",
+    "engExample": "I give a gift.",
+    "malayalam": "കൊടുക്കുന്നു",
+    "transliteration": "kodukkunnu",
+    "malExample": "ഞാൻ ഒരു സമ്മാനം കൊടുക്കുന്നു.",
+    "malExampleTranslit": "(nyaan oru sammaanam kodukkunnu.)"
+  },
+  {
+    "id": 135,
+    "category": "Verbs",
+    "english": "Give (Prog)",
+    "engExample": "I am giving money now.",
+    "malayalam": "കൊടുക്കുകയാണ്",
+    "transliteration": "kodukkukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ പണം കൊടുക്കുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol panam kodukkukayaanu.)"
+  },
+  {
+    "id": 136,
+    "category": "Verbs",
+    "english": "Give (Past)",
+    "engExample": "I gave a book.",
+    "malayalam": "കൊടുത്തു",
+    "transliteration": "koduthu",
+    "malExample": "ഞാൻ ഒരു പുസ്തകം കൊടുത്തു.",
+    "malExampleTranslit": "(nyaan oru pustakam koduthu.)"
+  },
+  {
+    "id": 137,
+    "category": "Verbs",
+    "english": "Give (Future)",
+    "engExample": "I will give a pen.",
+    "malayalam": "കൊടുക്കും",
+    "transliteration": "kodukkum",
+    "malExample": "ഞാൻ ഒരു പേന കൊടുക്കും.",
+    "malExampleTranslit": "(nyaan oru pena kodukkum.)"
+  },
+  {
+    "id": 138,
+    "category": "Verbs",
+    "english": "Take",
+    "engExample": "I take the book.",
+    "malayalam": "എടുക്കുന്നു",
+    "transliteration": "edukkunnu",
+    "malExample": "ഞാൻ പുസ്തകം എടുക്കുന്നു.",
+    "malExampleTranslit": "(nyaan pustakam edukunnu.)"
+  },
+  {
+    "id": 139,
+    "category": "Verbs",
+    "english": "Take (Prog)",
+    "engExample": "I am taking a pen now.",
+    "malayalam": "എടുക്കുകയാണ്",
+    "transliteration": "edukkukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ ഒരു പേന എടുക്കുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol oru pena edukkukayaanu.)"
+  },
+  {
+    "id": 140,
+    "category": "Verbs",
+    "english": "Take (Past)",
+    "engExample": "I took money.",
+    "malayalam": "എടുത്തു",
+    "transliteration": "eduthu",
+    "malExample": "ഞാൻ പണം എടുത്തു.",
+    "malExampleTranslit": "(nyaan panam eduthu.)"
+  },
+  {
+    "id": 141,
+    "category": "Verbs",
+    "english": "Take (Future)",
+    "engExample": "I will take fruit.",
+    "malayalam": "എടുക്കും",
+    "transliteration": "edukkum",
+    "malExample": "ഞാൻ പഴം എടുക്കും.",
+    "malExampleTranslit": "(nyaan pazham edukkum.)"
+  },
+  {
+    "id": 142,
+    "category": "Verbs",
+    "english": "Live",
+    "engExample": "I live in Kochi.",
+    "malayalam": "വസിക്കുന്നു",
+    "transliteration": "vasikkunnu",
+    "malExample": "ഞാൻ കൊച്ചിയിൽ വസിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan kochiyil vasikkunnu.)"
+  },
+  {
+    "id": 143,
+    "category": "Verbs",
+    "english": "Live (Prog)",
+    "engExample": "I am living in the village now.",
+    "malayalam": "വസിക്കുകയാണ്",
+    "transliteration": "vasikkukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ ഗ്രാമത്തിൽ വസിക്കുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol graamatthil vasikkukayaanu.)"
+  },
+  {
+    "id": 144,
+    "category": "Verbs",
+    "english": "Live (Past)",
+    "engExample": "I lived in the city.",
+    "malayalam": "വസിച്ചു",
+    "transliteration": "vasicchu",
+    "malExample": "ഞാൻ നഗരത്തിൽ വസിച്ചു.",
+    "malExampleTranslit": "(nyaan nagaratthil vasicchu.)"
+  },
+  {
+    "id": 145,
+    "category": "Verbs",
+    "english": "Live (Future)",
+    "engExample": "I will live in a house.",
+    "malayalam": "വസിക്കും",
+    "transliteration": "vasikkum",
+    "malExample": "ഞാൻ ഒരു വീട്ടിൽ വസിക്കും.",
+    "malExampleTranslit": "(nyaan oru viittil vasikkum.)"
+  },
+  {
+    "id": 146,
+    "category": "Verbs",
+    "english": "Work",
+    "engExample": "I work in a shop.",
+    "malayalam": "പ്രവർത്തിക്കുന്നു",
+    "transliteration": "pravarthikkunnu",
+    "malExample": "ഞാൻ ഒരു കടയിൽ പ്രവർത്തിക്കുന്നു.",
+    "malExampleTranslit": "(nyaan oru kadayil pravarthikkunnu.)"
+  },
+  {
+    "id": 147,
+    "category": "Verbs",
+    "english": "Work (Prog)",
+    "engExample": "I am working now.",
+    "malayalam": "പ്രവർത്തിക്കുകയാണ്",
+    "transliteration": "pravarthikkukayaanu",
+    "malExample": "ഞാൻ ഇപ്പോൾ പ്രവർത്തിക്കുകയാണ്.",
+    "malExampleTranslit": "(nyaan ippol pravarthikkukayaanu.)"
+  },
+  {
+    "id": 148,
+    "category": "Verbs",
+    "english": "Work (Past)",
+    "engExample": "I worked yesterday.",
+    "malayalam": "പ്രവർത്തിച്ചു",
+    "transliteration": "pravarthicchu",
+    "malExample": "ഞാൻ ഇന്നലെ പ്രവർത്തിച്ചു.",
+    "malExampleTranslit": "(nyaan innale pravarthicchu.)"
+  },
+  {
+    "id": 149,
+    "category": "Verbs",
+    "english": "Work (Future)",
+    "engExample": "I will work tomorrow.",
+    "malayalam": "പ്രവർത്തിക്കും",
+    "transliteration": "pravarthikkum",
+    "malExample": "ഞാൻ നാളെ പ്രവർത്തിക്കും.",
+    "malExampleTranslit": "(nyaan naale pravarthikkum.)"
+  },
+  {
+    "id": 150,
+    "category": "Verbs",
+    "english": "Know",
+    "engExample": "I know your name.",
+    "malayalam": "അറിയുന്നു",
+    "transliteration": "ariyunnu",
+    "malExample": "ഞാൻ നിന്റെ പേര് അറിയുന്നു.",
+    "malExampleTranslit": "(nyaan ninnte peer ariyunnu.)"
   }
 ]
