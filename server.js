@@ -60,8 +60,8 @@ app.get('/api/flashcards/:id', (req, res) =>{
 
 //POST New Card
 app.post('/api/flashcards', (req, res)=> {
-    const data = readData();
-    const newCard = {id:Date.now(), ...req.body };
+    const data = readData(); 
+    const newCard = {id:Date.now(), ...req.body}; 
     data.push(newCard);
     writeData(data);
     res.status(201).json(newCard); 

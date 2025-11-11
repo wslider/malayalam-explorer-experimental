@@ -178,6 +178,7 @@ document.getElementById('deleteButton').addEventListener('click', async () => {
 document.getElementById('newCardForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const newCard = {
+        id: Date.now(), 
         category: document.getElementById('newCategory').value.trim(),
         english: document.getElementById('newEnglish').value.trim(),
         engExample: document.getElementById('newEngExample').value.trim(),
@@ -217,7 +218,7 @@ document.getElementById('newCardForm').addEventListener('submit', async (e) => {
         if (!response.ok) throw new Error('POST failed');
 
         const addedCard = await response.json();  // Server returns the full card w/ ID
-        loadFlashcards();  
+        loadFlashcards();  // Refresh list
         e.target.reset();
         console.log('New card added:', addedCard.english, 'ID:', addedCard.id);
 
