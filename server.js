@@ -61,16 +61,47 @@ app.get('/api/flashcards/:id', (req, res) =>{
 //POST New Card
 app.post('/api/flashcards', (req, res)=> {
     const data = readData(); 
-    const newCard = {id:Date.now(), ...req.body}; 
+
+    const maxId = data.reduce((m, c) => (c.id > m ? c.id : m), 0); //use maxID instead of Date.now()
+    const newId = maxId + 1;
+    const newCard = { id: newId, ...req.body };
+
     data.push(newCard);
     writeData(data);
     res.status(201).json(newCard); 
 });
 
 //DELETE card
+
+app.delete('/api/flashcards/:id', (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        if (isNaN(id)) return res.status(400).json({ error: 'Invalid ID' });
+
+        const data = readData(); 
+        const filtered = data.filter(c => c.id !== id);
+
+        if (filtered.length === data.length) {
+            return res.status(404).json({ error: 'Not Found' });
+        }
+
+        writeData(filtered); 
+        res.status(204).send();  
+    } catch (err) {
+        console.error('DELETE error:', err);
+        res.status(500).json({ error: 'Server error' });
+    }
+});
+
+
+
+
+
+/* 
+
 app.delete('/api/flashcards/:id', (req, res) => {
     const data = readData(); 
-    const filtered = data.filter(c => c.id != req.pararms.id);
+    const filtered = data.filter(c => c.id !== parseInt(req.params.id)); 
     if (filtered.length === data.length) return res.status(404).json({error: 'Not Found'});
     writeData(filtered); 
     res.status(204).send();  
@@ -79,8 +110,30 @@ app.delete('/api/flashcards/:id', (req, res) => {
 
 
 
+ 
 
-/* function getAllFlashcards() {
+// 
+app.post("/api/flashcards", (req, res) => {
+  const cards = read();
+
+  // Auto-increment: highest existing id + 1
+  const maxId = data.reduce((m, c) => (c.id > m ? c.id : m), 0);
+  const newId = maxId + 1;
+
+  const newCard = { id: newId, ...req.body };
+  cards.push(newCard);
+  write(cards);
+
+  res.status(201).json(newCard);   // <-- client receives the real id
+});
+
+
+
+
+
+
+
+function getAllFlashcards() {
     return flashcards;
 }
 

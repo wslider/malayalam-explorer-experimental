@@ -498,15 +498,5 @@
     "transliteration": "pustakam",
     "malExample": "ഞാൻ ഒരു പുസ്തകം വായിക്കുന്നു.",
     "malExampleTranslit": "(nyaan oru pustakam vaayikkunnu.)"
-  },
-  {
-    "id": 1762822910612,
-    "category": "noun",
-    "english": "foo",
-    "engExample": "foofoo",
-    "malayalam": "ദിവ",
-    "transliteration": "bar",
-    "malExample": "ദിവ",
-    "malExampleTranslit": "barbar"
   }
 ]

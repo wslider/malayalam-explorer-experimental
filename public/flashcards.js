@@ -175,10 +175,10 @@ document.getElementById('deleteButton').addEventListener('click', async () => {
 
 
 // New Card Form: POST to API, refresh list
+// Server assigns Id
 document.getElementById('newCardForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const newCard = {
-        id: Date.now(), 
         category: document.getElementById('newCategory').value.trim(),
         english: document.getElementById('newEnglish').value.trim(),
         engExample: document.getElementById('newEngExample').value.trim(),
