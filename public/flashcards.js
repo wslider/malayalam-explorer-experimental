@@ -10,7 +10,7 @@ const malCard = document.getElementById('malCardContent');
 // Load data (API first, fallback to local JSON)
 async function loadFlashcards() {
     try {
-        const response = await fetch('/api/flashcards');
+        const response = await fetch('http://localhost:3002/api/flashcards'); // add in localhost and port
         if (!response.ok) throw new Error('API fetch failed');
         flashcards = await response.json(); 
     } catch (err) {
