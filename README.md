@@ -55,6 +55,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 4. **NPM Start**
 
 5. **Open Browser `http://localhost/3002`**
+    - ! IMPORTANT: Do not use live server to view the UI. The server writes to a JSON file (flashcards.json) that live server is watching and it will refresh the page on a POST or DELETE request (creating new flashacards and deleting flashcards). 
 
  
 ## Features for MVP: 
@@ -126,20 +127,23 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 - **public/**
   - index.html
   - flashcards.html
+  - locations.html (advanced feature)
   - **css/**
     - reset.css
     - style.css
+    - flashcards.css
   - **js/**
     - script.js
     - flashcards.js
+    - locations.js (advanced feature)
   - **data/**
     - flashcards.json
   - **images/**
     - kerala-map.png
-  - **audio/**
+    - ... 
+  - **audio/** (advanced feature)
     - 1.mp3
     - .... 
-    - 300.mp3
 - **.gitignore** 
     - node modules
     - env 

@@ -2,9 +2,10 @@
       --keralaGreen: #004700; 
       --keralaNight: #000d08;
       --keralaShade: #001d08;
+      --munnarTeaGarden: #00b100;
       --ripeMango: #ff6600; 
       --mountainFog: #f0fff8; 
-     }
+    }
 
     body {
         background-color: var(--keralaGreen);
