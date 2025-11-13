@@ -49,6 +49,7 @@
       border: 5px solid var(--mountainFog); 
       box-sizing: border-box;
       text-align: center;
+      cursor: pointer;
     }
 
     .cardContainer:hover {
