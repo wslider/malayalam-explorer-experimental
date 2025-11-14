@@ -1,4 +1,4 @@
-    :root {
+     :root {
       --keralaGreen: #004700; 
       --keralaNight: #000d08;
       --keralaShade: #001d08;
@@ -14,13 +14,29 @@
         display: flex; 
         flex-direction: column;
         justify-content: space-between;
+        margin: 0; 
+    }
+
+    .mainContainer {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
     }
 
     .topNav {
     height:fit-content; 
+    width: 100vw;
+    box-sizing: border-box;
     background-color: var(--keralaNight);
     display: flex; 
     justify-content: center;
+    padding: 20px; 
     }
 
         .topNav > a {
@@ -30,10 +46,15 @@
         text-align: center;
         }
 
-    .welcome {
-        font-size: 2.5rem;
+    .header {
+        font-size: 1rem;
+        text-align: center;
         cursor: pointer;
         text-align: center;
+        width: 100vw; 
+        margin: 10px;
+        box-sizing: border-box; 
+        min-height: 15vh;
     }
 
     .flashcardExpContainer {
@@ -56,17 +77,18 @@
 
     .mapDiv {
         align-self: center;
+        margin: 20px; 
+        box-sizing: border-box;
     }
 
-    #keralaMap {
-        max-height: 65vh;
-        width: 100%;
-        box-shadow: 3px 3px var(--keralaShade);
-    }
+        #keralaMap {
+            max-height: 45vh;
+            max-width: 100%;
+            box-shadow: 3px 3px var(--keralaShade);
+        }
 
     .worldClock {
-        margin-top: 5vh;
-        margin-bottom: 5vh; 
+        margin: 20px; 
         box-sizing: border-box;
         align-self: start;
         justify-self: center;
@@ -79,59 +101,44 @@
         box-shadow: 3px 3px var(--keralaShade);
     }
 
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 700px) {
+  
 
-    body {
-        display: grid; 
-        grid-template-areas: 
-        "navBar navBar"
-        "header map"
-        "main map"
-        "main worldClock"
-        "footer footer"
-        ;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 10vh auto auto auto auto 5vh;
-    }
-
-    .topNav {
-        grid-area: navBar; 
-    }
-
-    .welcome {
-        grid-area: header; 
-    }
     .mainContainer {
-        grid-area: main;
-        display: flex;
-        flex-direction: column;
-        max-width: 50vw;
+        display: grid;
+        grid-template-areas: 
+        "flashcardExp mapDiv"
+        "locationDiv worldClock"
+        ;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: auto auto; 
     }
 
-    .flashcardImg {
-        max-width: 30vw;
-    }
+        .flashcardExpContainer {
+            grid-area: flashcardExp;
+        }
+            .flashcardImg {
+                max-width: 30vw;
+            }
 
-    .locationImg {
-        max-width: 30vw;
-    }
+        .locationDiv {
+            grid-area: locationDiv; 
+        }
+            .locationImg {
+                max-width: 30vw;
+            }
 
-   .mapDiv {
-        max-width: 50vw;
-        grid-area: map;
-        margin-top: 5vh;
-        box-sizing: border-box;
-        align-self: start;
-        justify-self: center;
-        border: solid var(--mountainFog) 3px
-    }  
+        .mapDiv {
+            grid-area: mapDiv;
+            margin-top: 5vh;
+            box-sizing: border-box;
+            align-self: start;
+            justify-self: center;
+            border: solid var(--mountainFog) 3px
+        }  
 
-    .worldClock {
-        grid-area: worldClock;
-    }
-
-    .footer {
-        grid-area: footer; 
-    }
+        .worldClock {
+            grid-area: worldClock;
+        }
 
     }
