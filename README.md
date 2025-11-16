@@ -15,8 +15,9 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 |------|-------------|
 | **Index / Home Page** | Includes a map and information about Kerala, World Clock displaying User's Local Time and IST, and navigation to language flashcardsa and featured location pages. |
 | **Flashcards** | Learn Malayalam with interactive flashcards of the most commonly used words with example phrases. |
-| **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. (Advanced Feature)|
+| **Locations** | General information about locations within Kerala and hub page to access featured location pages. | 
 | **Malayalam Script Flashcards** | Learn the basics of reading and writing Malayalam Script. (Advanced Feature)|
+| **Trivandrum** | Featured location page for the Capitol city including a map, weather data and information. (Advanced Feature)|
 | **Munnar** | Featured location page for the mountain town of Munnar including a map, weather data and information. (Advanced Feature)|
 | **Kochi** | Featured location page for the port city including a map, weather data and information. (Advanced Feature)|
 
@@ -30,7 +31,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
 | **Custom API** | Create a CRD API that implements HTTP requests for GET, POST (user can post their own flashcards to the data set) and DELETE. Data stored in a JSON on the backend (Flashcards.json).  |
 | **Use arrays, objects to store and retrieve information** |  Flashcard data stored in JSON Array of Objects with Shuffle mode, Previous, Next and Reset functionalities. |
 | **Display Data Based on Some External Factor**| Display Bilingual World Clock with Local and IST. Recalculate times every minute - Set Interval of 1000ms. |
-|**Validate Form Input**| Form for creating new cards and adding to the JSON file. Input validated before user can POST a new flashcard.|
+|**Use a regular expression to validate user input**| Specific character requirements in form inputs for creating new cards and adding to the JSON file. Input validated before user can POST a new flashcard. Regex is used, especially where Malayalam script is required as input (see event listener for submitting a new card in flashcards.js). |
 
 
 
@@ -119,6 +120,10 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     10. Add additional Flashcards.  
     11. ... add additional stretch goals (commit each new feature). 
 
+# Future Plans and Upcoming Versions:
+
+
+
 
 # Site Map
 
@@ -149,7 +154,7 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     - env 
 
 
-## AI USAGE - Grok 4 Assistance in Creating the Following ... 
+## AI USAGE - Grok 4 Assistance in the process of creating parts the following ... 
 -  Delete Card event listener in flashcards.js 
 -  Post Card event listener in flashcards.js
 -  The function updateKeralaTimeGreeting() in script.js 
