@@ -54,8 +54,12 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
    npm install nodemon 
    ```
 4. **NPM Start**
+    ```bash
+    npm run dev
+    npm start
+    ```
 
-5. **Open Browser `http://localhost/3002`**
+5. **Open Browser & Navigate to `http://localhost/3002`**
     - ! IMPORTANT: Do not use live server to view the UI. The server writes to a JSON file (flashcards.json) that live server is watching and it will refresh the page on a POST or DELETE request (creating new flashacards and deleting flashcards). 
 
  
@@ -120,8 +124,11 @@ Educational app for Malayali diaspora and Travelers seeking to explore Kerala's 
     10. Add additional Flashcards.  
     11. ... add additional stretch goals (commit each new feature). 
 
-# Future Plans and Upcoming Versions:
-
+## Future Plans and Upcoming Versions:
+    1. Continue to develop and expand advanced features.
+    - add playable audio for cards
+    - add locations  
+    2. Public version on GitHub pages 
 
 
 
