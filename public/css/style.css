@@ -123,18 +123,24 @@
     @media only screen and (min-width: 700px) {
 
     .header {
-        min-height: 7vh; 
+        min-height: 15vh; 
     }
   
 
     .mainContainer {
         display: grid;
         grid-template-areas: 
-        "flashcardExp mapDiv"
+        "flashcardExp mapDiv" 
         "locationDiv worldClock"
         ;
         grid-template-columns: 50vw 50vw;
         grid-template-rows: auto auto; 
+    }
+
+    /* default setting for containers within main for large screens */
+
+    .container {
+        height: 90%; 
     }
 
         .flashcardExpContainer {
@@ -153,11 +159,6 @@
 
         .mapDiv {
             grid-area: mapDiv;
-            margin-top: 5vh;
-            box-sizing: border-box;
-            align-self: start;
-            justify-self: center;
-            border: solid var(--mountainFog) 3px
         }  
 
         .worldClock {
