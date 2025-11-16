@@ -5,6 +5,8 @@
       --munnarTeaGarden: #00b100;
       --ripeMango: #ff6600; 
       --mountainFog: #f0fff8; 
+      --monsoonCloud: #333849;
+      --backwaterBlue: #032094;
     }
 
     body {
@@ -17,18 +19,10 @@
         margin: 0; 
     }
 
-    .mainContainer {
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 10px; 
-        margin-bottom: 10px; 
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: space-around;
-    }
-
+    /* 
+    - if more than one link, make into dropdown menu 
+    - highlight on mouseover
+    */
     .topNav {
     height:fit-content; 
     width: 100vw;
@@ -51,57 +45,86 @@
         text-align: center;
         cursor: pointer;
         text-align: center;
-        width: 100vw; 
-        margin: 10px;
+        width: 90%; 
+        margin-left: 5%;
+        margin-right: 5%;  
+        padding-top: 10px;
+        padding-bottom: 10px; 
         box-sizing: border-box; 
-        min-height: 15vh;
+        min-height: 12vh;
+    }
+ 
+
+    .mainContainer {
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
     }
 
-    .flashcardExpContainer {
+    /* defaults for all containers within .maincontainer */
+
+    .container { 
+        box-sizing: border-box;
+        width: 90%; 
+        margin: 5%; 
+        padding: 20px;
         border: solid var(--mountainFog) 3px; 
+        box-shadow: 3px 3px #001d08;
         display: flex;
         flex-direction: column;
+        gap: 5px;
+    }
+
+
+     /* loop e to m example image on click */
+    .flashcardExpContainer {
         align-content: center;
-        padding: 20px;
-        margin: 20px; 
-        box-shadow: 3px 3px #001d08;
     }
+        .flashcardImg {
+            max-width: 70vw;
+        }
 
-    .flashcardImg {
-        max-width: 70vw;
-    }
 
-    .locationImg {
-        max-width: 70vw;
+    .locationDiv {
+        align-content: center;
+        align-items: center;
+        justify-content: space-around; 
     }
+        .locationImg {
+            max-width: 60vw;
+            padding: 10px; 
+        }
+
 
     .mapDiv {
         align-self: center;
-        margin: 20px; 
-        box-sizing: border-box;
     }
-
         #keralaMap {
             max-height: 45vh;
             max-width: 100%;
             box-shadow: 3px 3px var(--keralaShade);
         }
 
+
     .worldClock {
+        align-items: start;
+    }
+
+    .footer {
         margin: 20px; 
         box-sizing: border-box;
-        align-self: start;
-        justify-self: center;
-        border: solid var(--mountainFog) 3px;
-        display: flex; 
-        flex-direction: column;
-        align-items: start;
-        gap: 5px; 
-        padding: 25px;
-        box-shadow: 3px 3px var(--keralaShade);
+        text-align: center;
     }
 
     @media only screen and (min-width: 700px) {
+
+    .header {
+        min-height: 7vh; 
+    }
   
 
     .mainContainer {
